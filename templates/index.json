@@ -42,7 +42,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Create your perfect champagne moment</p>",
+            "text": "<p>Skab dit perfekte champagne moment</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "center",
@@ -164,7 +164,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2>Recommended champagne</h2>",
+                "text": "<h2>Anbefalet champagne</h2>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -354,7 +354,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Exclusive  selection</h2>",
+                "text": "<h2>Eksklusivt udvalg</h2>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -380,7 +380,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Here you will be able to find our most sought after champagnes. These are often champagnes where we have a very limited stock. This selection of rare champagne is for the true champagne lover with a taste for quality and a love to the big champagne producers like Dom Perignon, Krug, Comptes de Champagne (taittinger) or any of the other brands who produces the best champagne of the world.</p><p></p><p>Take look at our selection here:</p>",
+                "text": "<p>Her vil du kunne finde vores mest eftertragtede champagner. Det er ofte champagner, hvor vi har et meget begrænset lager. Dette udvalg af sjældne champagne er til den ægte champagneelsker med smag for kvalitet og kærlighed til de store champagneproducenter som Dom Perignon, Krug, Comptes de Champagne (taittinger) eller et af de andre mærker, der producerer verdens bedste champagne .</p><p></p><p>Se vores udvalg her:</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -483,7 +483,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2>Our exclusive champagnes</h2>",
+                "text": "<h2>Vores eksklusive champagner</h2>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -673,7 +673,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Create your perfect champagne moment:</h2>",
+                "text": "<h2>Skab dit perfekte champagne moment:</h2>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -699,7 +699,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Here at Champagne Season, we provide everything you need to create the perfect surroundings for your champagne. So if you want to create a perfect champagne moment for a celebration like a marriage, birthday or a graduation. Then you have come to the right place. Visit our different collections to put together your next champagne experience.</p>",
+                "text": "<p>Her på Champagne Season leverer vi alt, hvad du behøver for at skabe de perfekte omgivelser til din champagne. Så hvis du vil skabe et perfekt champagne-øjeblik til en fest som et bryllup, en fødselsdag eller en dimission. Så er du kommet til det rigtige sted. Besøg vores forskellige kollektioner for at sammensætte din næste champagneoplevelse.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -968,7 +968,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Time to pop some champagne</h2>",
+            "text": "<h2>Tid til at drikke lidt champagne</h2>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -1370,7 +1370,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2>Learn more about champagne</h2>",
+                "text": "<h2>Lær mere om champagne</h2>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -1689,7 +1689,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3>The perfect champagne match.</h3>",
+                "text": "<h3>Det perfekte champagnematch.</h3>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -1715,7 +1715,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "text": "<p>Do you want a champagne experience where everything matches? look no further. At Champagne Season we provide a wide range of vintage champagne accessories. Some which are over 50 years old, and others which are completely new and have been used. Do you want to create a match to your next champagne bottle, take a look for accessories in our  collection.</p>",
+                "text": "<p>Ønsker du en champagneoplevelse, hvor alt matcher? stop med at lede. Hos Champagne Season tilbyder vi et bredt udvalg af vintage champagnetilbehør. Nogle som er over 50 år gamle, og andre som er helt nye og har været brugt. Vil du skabe et match til din næste champagneflaske, så tag et kig efter tilbehør i vores kollektion.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -1819,7 +1819,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2>All vintage accessories</h2>",
+                "text": "<h2>Alt vintage tilbehør</h2>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "left",
@@ -2436,7 +2436,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Champagne Blogs</h2>",
+                "text": "<h2>Champagne blogs</h2>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -2462,7 +2462,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Want to learn more about champagne? look no further. View our texts about champagne</p><p></p><p><a href=\"https://champagne-season.com/blogs/all-blogs\" target=\"_blank\" title=\"https://champagne-season.com/blogs/all-blogs\">Take look at our blogs here:</a></p>",
+                "text": "<p>Vil du lære mere om champagne? se ikke længere. Se vores tekster om champagne</p><p></p><p><a href=\"https://champagne-season.com/blogs/all-blogs\" target=\"_blank\" title=\"https://champagne-season.com/blogs/all-blogs\">Se vores blogs her:</a></p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -2892,6 +2892,69 @@
         "padding-block-start": 48,
         "padding-block-end": 40
       }
+    },
+    "seo_text": {
+      "type": "section",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>Hos os finder du eksklusive champagner til enhver lejlighed</h2><p>Bobler i glasset løfter enhver stemning og gør dine mærkedage helt uforglemmelige. Som passioneret champagneentusiast brænder jeg personligt for at tilbyde et fantastisk univers af sprudlende drikke og stilfuldt tilbehør. Vores udvalg rummer smagfulde champagner fra nøje udvalgte huse, som passer til alt fra intime middage til store fester. Når du ønsker at foretage et nemt køb champagne online, får du fantastiske flasker og en god, komplet oplevelse. Vi arbejder altid for at sikre dig et stort udvalg og måske Danmarks bedste priser. Uanset om du søger klassisk elegance eller helt unikke flasker, finder du det hele i vores udvalg.</p><h2>Du kan altid finde den helt rette champagne til dine særlige fejringer</h2><p>Når du vil skabe et uforglemmeligt champagne moment, kræver det den helt rigtige flaske og den rette stemning. Vi hjælper dig gerne med at vælge de bedste bobler til både private smagninger, restauranter og eksklusive arrangementer. Vores populære champagne shop er opbygget med fokus på god kvalitet, brugervenlighed og personlig inspiration. Du kan nemt udforske et spændende sortiment, hvor du finder både velkendte huse og helt unikke perler. Hvis du vil lære mere om bobler og tilbehør, deler vi løbende nye idéer på vores sociale medier. Vores mål er at gøre det nemt for dig at finde udskænkningsklare champagner til enhver anledning.</p><h2>Gør din oplevelse fuldendt hos Champagne Season med det rette udstyr</h2><p>Hos Champagne Season brænder vi for at levere alt det, der skal til for at fuldende din smagning. Udover skønne flasker tilbyder vi et stærkt udvalg af tilbehør, som løfter enhver anledning. Du kan altid kigge forbi, når du vil gennemføre dit næste køb champagne og tilbehør til skarpe priser. Ethvert champagne moment bliver ekstra magisk, når udstyret og de udvalgte champagner spiller perfekt sammen. Kig rundt på vores online champagne shop, og opdag vores fantastiske udvalg af sprudlende drikke. Bestil dine personlige favoritter med det samme, og skab helt uforglemmelige øjeblikke sammen med dine gæster.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "name": "t:names.section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
@@ -2909,6 +2972,7 @@
     "champagne_frames_collage",
     "champagne_frames_in_stock",
     "champagne_blogs_text",
+    "seo_text",
     "memorable_moments_collage"
   ]
 }

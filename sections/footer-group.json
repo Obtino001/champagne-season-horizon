@@ -18,7 +18,7 @@
           "type": "menu",
           "settings": {
             "menu": "footer",
-            "heading": "Quick links",
+            "heading": "Hurtige links",
             "menu_spacing": 8,
             "show_as_accordion": false,
             "accordion_icon": "caret",
@@ -70,7 +70,7 @@
             "contact_heading": {
               "type": "text",
               "settings": {
-                "text": "<h2>Contact</h2>",
+                "text": "<h2>Kontakt</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -159,7 +159,7 @@
             "mission_heading": {
               "type": "text",
               "settings": {
-                "text": "<h2>Our mission</h2>",
+                "text": "<h2>Vores mission</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -248,7 +248,7 @@
             "newsletter_heading": {
               "type": "text",
               "settings": {
-                "text": "<h2>Subscribe to our newsletter</h2>",
+                "text": "<h2>Abonner på vores nyhedsbrev</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
