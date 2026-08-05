@@ -15,6 +15,9 @@ const dawn = JSON.parse(fs.readFileSync(path.join(DAWN, 'config/settings_data.js
 Object.assign(horizon.current, {
   page_width: 'narrow',
 
+  logo_height: 56,
+  logo_height_mobile: 40,
+
   favicon: dawn.current.favicon,
 
   type_body_font: 'assistant_n4',
@@ -33,6 +36,13 @@ Object.assign(horizon.current, {
   type_letter_spacing_h3: 'heading-normal',
 
   badge_position: 'bottom-left',
+
+  // The storefront's base.css forces badges to transparent, bold coloured text.
+  badge_sale_background_color: 'rgba(0,0,0,0)',
+  badge_sale_text_color: '#089108',
+  badge_sold_out_background_color: 'rgba(0,0,0,0)',
+  badge_sold_out_text_color: '#e73131',
+  badge_text_transform: 'none',
 
   button_border_radius_primary: 0,
   button_border_radius_secondary: 0,

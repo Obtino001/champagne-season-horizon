@@ -112,6 +112,22 @@
   .product-inventory__icon circle:first-of-type {
     opacity: 0.3;
   }
+
+  /* Status-tinted label, matching the storefront's bold coloured stock text. */
+  .product-inventory__status:has(.product-inventory__icon-in_stock) {
+    color: var(--color-instock);
+    font-weight: bold;
+  }
+
+  .product-inventory__status:has(.product-inventory__icon-low) {
+    color: var(--color-lowstock);
+    font-weight: bold;
+  }
+
+  .product-inventory__status:has(.product-inventory__icon-out_of_stock) {
+    color: var(--color-outofstock);
+    font-weight: bold;
+  }
 {% endstylesheet %}
 
 {% schema %}

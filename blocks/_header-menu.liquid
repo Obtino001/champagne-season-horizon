@@ -338,6 +338,25 @@
     padding-inline: 0;
   }
 
+  /* Caret marking top-level links that open a submenu. */
+  .menu-list__link[aria-haspopup='true'] .menu-list__link-title::after {
+    content: '';
+    display: inline-block;
+    width: 0.36em;
+    height: 0.36em;
+    margin-inline-start: 0.45em;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: translateY(-0.15em) rotate(45deg);
+    transition: transform 0.15s ease;
+  }
+
+  .menu-list__list-item:where(:hover, :focus-within)
+    .menu-list__link[aria-haspopup='true']
+    .menu-list__link-title::after {
+    transform: translateY(0.05em) rotate(-135deg);
+  }
+
   .menu-list__list-item:not([slot='overflow']) {
     flex-direction: column;
   }
