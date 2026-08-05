@@ -9,9 +9,10 @@
  */
 {
   "current": {
-    "logo_height": 36,
-    "logo_height_mobile": 28,
-    "favicon": "shopify://shop_images/Nyt_logo.jpg",
+    "logo_height": 56,
+    "logo_height_mobile": 40,
+    "page_background_color": "{{ settings.color_palette.background }}",
+    "page_width": "narrow",
     "page_text_color": "{{ settings.color_palette.foreground }}",
     "type_body_font": "assistant_n4",
     "type_subheading_font": "assistant_n4",
@@ -43,17 +44,15 @@
     "type_font_h6": "subheading",
     "type_size_h6": "14",
     "type_line_height_h6": "display-loose",
-    "page_background_color": "{{ settings.color_palette.background }}",
-    "page_width": "narrow",
-    "page_transition_enabled": true,
-    "transition_to_main_product": true,
-    "card_hover_effect": "subtle-zoom",
+    "page_transition_enabled": false,
+    "transition_to_main_product": false,
+    "card_hover_effect": "none",
     "badge_position": "bottom-left",
     "badge_corner_radius": 100,
-    "badge_sale_background_color": "{{ settings.color_palette.background }}",
-    "badge_sale_text_color": "{{ settings.color_palette.foreground }}",
-    "badge_sold_out_background_color": "#eef1ea",
-    "badge_sold_out_text_color": "{{ settings.color_palette.foreground }}",
+    "badge_sale_background_color": "rgba(0,0,0,0)",
+    "badge_sale_text_color": "#089108",
+    "badge_sold_out_background_color": "rgba(0,0,0,0)",
+    "badge_sold_out_text_color": "#e73131",
     "badge_text_transform": "none",
     "palette_primary_button_background": "{{ settings.color_palette.foreground }}",
     "palette_primary_button_text": "{{ settings.color_palette.background }}",
@@ -86,10 +85,8 @@
     "currency_code_enabled_product_pages": false,
     "currency_code_enabled_product_cards": false,
     "currency_code_enabled_cart_items": false,
-    "mobile_quick_add": true,
     "quick_add_background": "{{ settings.color_palette.background }}",
     "quick_add_text": "{{ settings.color_palette.foreground }}",
-    "empty_state_collection": "all-products",
     "product_corner_radius": 0,
     "card_corner_radius": 0,
     "show_variant_image": false,
@@ -105,7 +102,13 @@
     "variant_button_border_width": 1,
     "variant_button_radius": 14,
     "variant_button_width": "equal-width-buttons",
-    "content_for_index": [],
+    "color_palette": {
+      "background": "#ffffff",
+      "foreground": "#121212",
+      "color1": "#333333",
+      "color2": "#DFDFDF"
+    },
+    "favicon": "shopify://shop_images/Nyt_logo.jpg",
     "blocks": {
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
@@ -145,12 +148,6 @@
         "disabled": false,
         "settings": {}
       }
-    },
-    "color_palette": {
-      "background": "#ffffff",
-      "foreground": "#121212",
-      "color1": "#333333",
-      "color2": "#DFDFDF"
     }
   },
   "presets": {
