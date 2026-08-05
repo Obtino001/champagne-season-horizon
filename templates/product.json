@@ -193,8 +193,8 @@
                   "settings": {
                     "show_sale_price_first": true,
                     "show_installments": false,
-                    "show_tax_info": false,
-                    "type_preset": "paragraph",
+                    "show_tax_info": true,
+                    "type_preset": "h4",
                     "width": "100%",
                     "alignment": "left",
                     "font": "var(--font-body--family)",
@@ -209,12 +209,27 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "inventory": {
+                  "type": "product-inventory",
+                  "name": "t:names.product_inventory",
+                  "settings": {
+                    "inventory_threshold": 0,
+                    "show_inventory_quantity": false,
+                    "text_color": "",
+                    "padding-block-start": 4,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "product_title",
                 "caption",
-                "price"
+                "price",
+                "inventory"
               ]
             },
             "divider": {
@@ -298,10 +313,10 @@
                   "type": "add-to-cart",
                   "static": true,
                   "settings": {
-                    "style_class": "button",
-                    "custom_button_background": "{{ settings.color_palette.foreground }}",
-                    "custom_button_text": "{{ settings.color_palette.background }}",
-                    "custom_button_border": "{{ settings.color_palette.background }}"
+                    "style_class": "button-custom",
+                    "custom_button_background": "#265c26",
+                    "custom_button_text": "#ffffff",
+                    "custom_button_border": "#265c26"
                   },
                   "blocks": {}
                 },
@@ -462,7 +477,7 @@
       "settings": {
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
-        "equal_columns": true,
+        "equal_columns": false,
         "limit_details_width": false,
         "gap": 48,
         "enable_sticky_add_to_cart": true,
