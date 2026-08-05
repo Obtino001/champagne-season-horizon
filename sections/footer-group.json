@@ -294,11 +294,25 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "payment_icons": {
+              "type": "payment-icons",
+              "name": "t:names.payment_icons",
+              "settings": {
+                "horizontal_alignment": "flex-start",
+                "gap": 10,
+                "padding-block-start": 8,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "newsletter_heading",
-            "email_signup_crihX7"
+            "email_signup_crihX7",
+            "payment_icons"
           ]
         }
       },
