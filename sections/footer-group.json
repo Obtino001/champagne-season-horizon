@@ -296,12 +296,21 @@
               "blocks": {}
             },
             "payment_icons": {
-              "type": "payment-icons",
+              "type": "image",
               "name": "t:names.payment_icons",
               "settings": {
-                "horizontal_alignment": "flex-start",
-                "gap": 10,
-                "padding-block-start": 8,
+                "image": "shopify://shop_images/277400291_729668085074458_8436321632074599051_n.png",
+                "image_ratio": "adapt",
+                "width": "custom",
+                "custom_width": 80,
+                "width_mobile": "custom",
+                "custom_width_mobile": 45,
+                "height": "fit",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 12,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
