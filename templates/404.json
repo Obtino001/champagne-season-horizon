@@ -15,7 +15,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h1>Page not found</h1>",
+            "text": "<p>404</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -39,7 +39,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>The link may be incorrect, or the page has been removed. </p>",
+            "text": "<h1>Siden blev ikke fundet</h1>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -63,7 +63,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "Continue shopping",
+            "label": "Fortsætte med at handle",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",

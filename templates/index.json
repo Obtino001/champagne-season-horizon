@@ -190,7 +190,7 @@
               "type": "_product-list-button",
               "name": "t:names.product_list_button",
               "settings": {
-                "label": "View all",
+                "label": "Se alt",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "custom_button_background": "{{ settings.color_palette.foreground }}",
@@ -509,7 +509,7 @@
               "type": "_product-list-button",
               "name": "t:names.product_list_button",
               "settings": {
-                "label": "View all",
+                "label": "Se alt",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "custom_button_background": "{{ settings.color_palette.foreground }}",
@@ -828,7 +828,7 @@
               "type": "_product-list-button",
               "name": "t:names.product_list_button",
               "settings": {
-                "label": "View all",
+                "label": "Se alt",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "custom_button_background": "{{ settings.color_palette.foreground }}",
@@ -1396,7 +1396,7 @@
               "type": "_product-list-button",
               "name": "t:names.product_list_button",
               "settings": {
-                "label": "View all",
+                "label": "Se alt",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "custom_button_background": "{{ settings.color_palette.foreground }}",
@@ -1845,7 +1845,7 @@
               "type": "_product-list-button",
               "name": "t:names.product_list_button",
               "settings": {
-                "label": "View all",
+                "label": "Se alt",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "custom_button_background": "{{ settings.color_palette.foreground }}",
@@ -2271,7 +2271,7 @@
               "type": "_product-list-button",
               "name": "t:names.product_list_button",
               "settings": {
-                "label": "View all",
+                "label": "Se alt",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "custom_button_background": "{{ settings.color_palette.foreground }}",
