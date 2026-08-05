@@ -1,0 +1,319 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */{
+  "sections": {
+    "banner": {
+      "type": "section",
+      "blocks": {
+        "collection_title": {
+          "type": "text",
+          "name": "t:names.title",
+          "settings": {
+            "text": "<h1>{{ closest.collection.title }}</h1>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "collection_description": {
+          "type": "text",
+          "name": "t:names.description",
+          "settings": {
+            "text": "{{ closest.collection.description }}",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "collection_title",
+        "collection_description"
+      ],
+      "name": "t:names.heading",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "filters": {
+          "type": "filters",
+          "name": "t:names.filters",
+          "static": true,
+          "settings": {
+            "enable_filtering": true,
+            "filter_style": "horizontal",
+            "filter_width": "centered",
+            "text_label_case": "default",
+            "show_swatch_label": false,
+            "show_filter_label": false,
+            "enable_sorting": true,
+            "enable_grid_density": true,
+            "padding-block-start": 8,
+            "padding-block-end": 8,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "facets_margin_bottom": 8,
+            "facets_margin_right": 20
+          },
+          "blocks": {}
+        },
+        "product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 4,
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "card-gallery": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "adapt",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "card-title": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "card-price": {
+              "type": "price",
+              "name": "t:names.product_price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "card-gallery",
+            "card-title",
+            "card-price"
+          ]
+        }
+      },
+      "settings": {
+        "layout_type": "grid",
+        "product_card_size": "medium",
+        "mobile_product_card_size": "small",
+        "enable_infinite_scroll": true,
+        "products_per_page": 16,
+        "product_grid_width": "centered",
+        "full_width_on_mobile": true,
+        "columns_gap_horizontal": 4,
+        "columns_gap_vertical": 8,
+        "padding-inline-start": 0,
+        "padding-inline-end": 0,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 36,
+        "padding-block-end": 36
+      }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Deutz champagne</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Deutz Champagne is a champagne of excellence and craftmanshop in the world of sparkling wines. With a legacy spanning over 180 years, Deutz has captivated wine enthusiasts and connoisseurs with its exceptional craftsmanship and exquisite blends. This in-depth exploration will delve into the history, production process, signature styles, and notable accolades of Deutz Champagne, showcasing its enduring commitment to quality and its position as a symbol of celebration and refinement.</p><p>A Rich Heritage:</p><p><a href=\"https://www.decanter.com/wine/producer-profiles/deutz-champagne-producer-profile-413682/\" target=\"_blank\" title=\"https://www.decanter.com/wine/producer-profiles/deutz-champagne-producer-profile-413682/\">Deutz Champagne</a> traces its origins back to 1838 when William Deutz and Pierre-Hubert Geldermann joined forces to establish the Deutz & Geldermann House in Aÿ, one of the most prestigious regions in the Champagne region of France. From the very beginning, the founders set out to create Champagne of unparalleled quality, embodying their shared passion for perfection and innovation.</p><p>The Champagne Production Process:</p><p>To truly appreciate the excellence of Deutz Champagne, it is essential to understand the meticulous production process that goes into crafting each bottle. The process begins with the careful selection of grapes from vineyards across Champagne. Deutz predominantly uses <a href=\"https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties\" target=\"_blank\" title=\"https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties\">Chardonnay, Pinot Noir, and Pinot Meunier grapes</a>, sourced from vineyards known for their exceptional terroir.</p><p>The grapes are hand-picked and gently pressed to extract the juice, which is then fermented in stainless steel tanks or oak barrels. After the primary fermentation, the magic of Champagne takes place as the wine undergoes a secondary fermentation in the bottle. This transformative process results in the creation of carbon dioxide, which gives Champagne its signature effervescence.</p><p>Signature Styles and Blends:</p><p>Deutz Champagne offers a diverse range of styles and blends, each showcasing the unique characteristics of the Champagne terroir. The House is particularly renowned for its Brut Champagnes, which strike a perfect balance between freshness, finesse, and complexity. The Brut Classic, with its delicate aromas of white flowers and citrus fruits, and the Brut Vintage, characterized by its richness and longevity, are among the standout offerings from <a href=\"https://www.champagne-deutz.com/\" target=\"_blank\" title=\"https://www.champagne-deutz.com/\">Deutz</a>.</p><p>For those seeking a touch of elegance and refinement, Deutz also produces Blanc de Blancs, a Champagne made exclusively from Chardonnay grapes. This style exhibits purity, minerality, and a vibrant acidity that beautifully complement a wide array of culinary delights.</p><p>Commitment to Quality and Sustainability:</p><p>At the heart of Deutz Champagne lies an unwavering commitment to quality. From vineyard management to the cellar practices, every step of the production process is executed with precision and care. The House embraces sustainable viticulture practices, respecting the land and ensuring the preservation of the environment for future generations.</p><p>Deutz Champagne is also recognized for its long aging potential. The wines undergo a meticulous maturation process in the cellars, where they rest on their lees for an extended period. This patient approach allows the wines to develop depth, complexity, and remarkable finesse, contributing to their exceptional quality.</p><p>Notable Accolades and Recognition:</p><p>Over the years, Deutz Champagne has garnered numerous accolades and critical acclaim, solidifying its reputation as a producer of exceptional sparkling wines. The House consistently receives high ratings from esteemed wine critics and publications, reaffirming its position among the finest Champagne producers in the world.</p><p>The dedication to quality has earned Deutz prestigious awards, including gold medals at renowned international wine competitions. Such accolades validate the mastery and expertise that go into every bottle of Deutz Champagne.</p><p>Celebratory Moments and Pairings:</p><p>Deutz Champagne is synonymous with celebrations and special moments. Whether it's a wedding, anniversary, or festive gathering, the pop of a Deutz cork signifies the start of a joyous occasion. The versatility of Deutz Champagne allows it to be enjoyed as an aperitif, paired with a wide range of cuisines, or savored on its own to mark significant milestones.</p><p>The Future of Deutz Champagne:</p><p>As Deutz Champagne continues to flourish, the House remains dedicated to upholding its rich heritage while embracing innovation and progress. The winemaking team, led by highly skilled professionals, continually explores new techniques and pushes boundaries to elevate the quality and character of their Champagnes.</p><p>Deutz Champagne's commitment to sustainability will undoubtedly play an integral role in shaping its future endeavors. By implementing eco-friendly practices and promoting biodiversity, the House aims to safeguard the vineyards and ensure the longevity of their exceptional wines.</p><p>Conclusion:</p><p>Deutz Champagne stands as a testament to the artistry and dedication of its founders, carrying forward a legacy of excellence that has transcended generations. From its origins in the historic Champagne region to its worldwide recognition today, Deutz Champagne has consistently delighted wine lovers with its exceptional quality, diverse styles, and the ability to elevate any occasion.</p><p>With its commitment to craftsmanship, sustainability, and innovation, Deutz Champagne is poised to continue enchanting wine enthusiasts for years to come, symbolizing the essence of celebration, refinement, and the timeless joy found within each sparkling glass.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "collection_text"
+  ]
+}

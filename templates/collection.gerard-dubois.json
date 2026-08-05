@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Gérard Dubois</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>A Legacy in Avize, Champagne</h2><h3><strong>Introduction</strong></h3><p>Champagne Gérard Dubois is situated in the heart of Avize, Champagne, a region with a rich history of winemaking. The Dubois family has been deeply involved in the Champagne industry for generations, representing multiple houses over the years.</p><h3><strong>The Dubois Family Heritage</strong></h3><p>The Dubois family's connection to Champagne dates back to the early 20th century. Paul Dubois, the father of Gérard Dubois, established the house in 1930, following a period of vineyard devastation caused by the Phylloxera epidemic in the 1910s. The Dubois vineyards, like many others, had to be replanted, and the current estate's buildings and cellars have a history that can be traced back to 1820.</p><h3><strong>The Vineyards</strong></h3><p>Champagne Gérard Dubois currently cultivates approximately six hectares of vineyards, with a focus on three key grape varieties:</p><p><strong>Chardonnay:</strong> 3.30 hectares in Avize, Oger, and Cramant</p><p><strong>Pinot Meunier:</strong> 1.80 hectares in the Marne Valley</p><p><strong>Pinot Noir:</strong> 1.00 hectare in Aube</p><h3><strong>The Winemaking Philosophy</strong></h3><p>Gérard Dubois, who has been involved in the winemaking process since childhood, is known for his meticulous approach to crafting Champagne. Each year, he produces vintage champagnes that reflect a consistent style while also showcasing the unique characteristics of each harvest.</p><h3><strong>The Champagnes</strong></h3><p>Champagne Gérard Dubois is celebrated for its juicy champagnes, characterized by ample autolysis and a finely balanced acidity. These qualities make them ideal for extended aging in the cellar. The older champagnes, in particular, offer exceptional and memorable experiences when enjoyed.</p><h3><strong>Conclusion</strong></h3><p>Champagne Gérard Dubois stands as a testament to the dedication and expertise of the Dubois family. With a rich heritage, a commitment to quality winemaking, and a focus on showcasing the unique terroir of Champagne, the house continues to produce exceptional champagnes that are cherished by enthusiasts around the world.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

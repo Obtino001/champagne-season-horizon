@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Champagne buckets</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Why do you use a champagne bucket with ice? A champagne bucket with ice is a tradition at many weddings.<br/>If both the bride and groom are very happy with good wine on the table, it is natural to bring it along. And also when considering wedding gifts. Here is it also completely traditional to give champagne + champagne accessories for instance a wine rack or a champagne experience. This is always a good choice as all champagne lovers will appreciate this.<br/><br/>A classic wedding gift that can almost always be found on wedding gift tables is a vintage champagne or a vintage champagne accessorie. A vintage champagne bucket is a collectible that the bride and groom can take out on at least every birthday to remember the holiday and their love time and time again.<br/>Champagnes with ice are a popular drink with many weddings. For a wedding, be sure to get plenty of bottles of champagne as it is a classic and classy drink for the guests. And if you are comming as a guest, then you can always bring a bottle of champagne as a wedding gift. Champagne is always enjoyed on a warm summer day, but it can get warm quickly,<br/>which is definitely not a fun experience for anyone. Therefore, champagne coolers / champagne buckets can be good gifts for brides and grooms. If you don't think there is enough space for the bride and groom to enjoy the champagne at the actual wedding, you can arrange a champagne tasting for two. Which we also can provide. Champagne is liquid gold with bubbles, and there are many champagnes to choose from on the market. If you haven't tried real champagne before, you have a world of great experiences that awaits you. </p><p><br/>\"Champagne must be cold, dry and sparkling.\" Do you also love the world's most luxurious drink?<br/>When you want to serve a delicious champagne drink, we have everything you need. First, you know that champagne must be properly chilled. In this category you will find many nice ice buckets<br/>delicious drops. Champagne is often associated with better, more special occasions such as weddings,<br/>anniversaries or when you win something. When when it comes to ice buckets, you can choose from many varieties, from classic champagne buckets in<br/>stainless steel or more colorful buckets and you can also find champagne stands that stand on the floor so the bucket is as high as the table that you are sitting at. Fill the bucket with ice and set<br/>the bottle in. Within a few minutes the drink is completely cool and ready to serve. Cheers</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

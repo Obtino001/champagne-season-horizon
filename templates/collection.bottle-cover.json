@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Learn more</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>What is the use for them?</p><p>If you do blind tastings, you know the struggle of what to wrap around your bottle. Some times bottles are wrapped in aluminium foil or a old tennis sock. It does simply not look good. This bottle cover is more professional looking, and does also support a good cause.</p><p>Production: </p><p>Materials are sourced locally in Denmark where <a href=\"https://champagne-season.com/blogs/all-blogs/bottle-covers-the-story-behind\" target=\"_blank\" title=\"https://champagne-season.com/blogs/all-blogs/bottle-covers-the-story-behind\">Lars</a> finds coffee roasters who are throwing away perfect coffee bags. And the raincoat material is also sourced from local a raincoat production. Then the raw materials are delivered to a socio-economic sewing workshop, where they cut and sew these bottle covers for your wine or champagne.</p><p>Bonus use:</p><p>It can also be used as a vase cover, so you can use a bottle as a vase, cover the bottle, and put a few flowers in the bottle.</p><p><a href=\"https://champagne-season.com/blogs/all-blogs/bottle-covers-the-story-behind\" target=\"_blank\" title=\"https://champagne-season.com/blogs/all-blogs/bottle-covers-the-story-behind\">Click here to learn more about the history.</a></p><p></p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

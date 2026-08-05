@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Veuve Clicquot</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Veuve Clicquot Ponsardin is a Champagne house founded in 1772 and they are based in Reims. It is one the biggest Champagne houses. Madame Clicquot is credited with main breakthroughs, generating the initially known classic champagne in 1810, and inventing the riddling board procedure to define champagne in 1816. In 1818, she invented the initially first known blended rosé champagne by blending still red and white wines, a method still utilized by the most of champagne producers. Whilst the Napoleonic Wars, Madame Clicquot furious strides in setting up her wine in royal courts all over Europe, notably that of Imperial Russia. She played a key component of part in setting up Champagne as a favored imbibe of elevated society and the aristocracy all over Europe. The home has owned its distinctive gold-yellow mark since the belated nineteenth century. The firm was bought in 1986 by Louis Vuitton (now component of the LVMH group formed in 1987) and continues to enlarge worldwide.</p><p><strong>The history of Veuve Clicquot champagne</strong><br/>One of the earliest champagne firms that continues to make champagne today, Veuve Clicquot, was established in 1722. Philippe Clicquot established the champagne company in northern France, and it has since grown to become one of the biggest champagne producers on the planet. The fact that Veuve Clicquot was the first champagne house to make rosé in 1818 and that the champagne house invented vintage champagne in 1810 are two of the reasons it is one of the biggest. They achieved this by blending red wine with white champagne. This implies that the Veuve Clicquot champagne house originated the concept of rosé and the production techniques that are still utilized today. Francois Clicquot took over the champagne firm after his father Philippe passed away. When Francios Clicquot passed away in 1805, his wife, Barbe-Nicole Clicquot Ponsardin, who was then 27 years old, took over the champagne house and ran it with Comte Edouard Werlé and cellar master Antoine Müller.</p><p>You might now have made the connection between the nickname \"The Yellow Widow\" and the name of the champagne house, Veuve Clicquot. The French name for \"widow,\" is \"veuve\" which carries on the tragic tale and lends the term its meaning. Veuve Clicquot's basic non-vintage cuvee is called \"The Yellow Widow,\" yet there is nothing \"standard\" about it.</p><p>The finest Pinot Noir and Chardonnay vineyards were used to make the champagne their first vintage \"La Grande Dame\" in 1972, in honor of the house's 200th birthday, and they have continued their \"La Grande Dame\" line since then, but only in years where the weather allows it as it is only made of single vintages and only the best years make it. In comparison to \"The Yellow Widow\" which a blend of 50–60 different crus of 50% Pinot Noir, 30% Chardonnay, and 20% Meunier, it is now virtually entirely Pinot Noir. It is kept for three years. But as this is a Non-Vintage we can only say that it has been kept for at least 3 years because the champagne is made of multiple vintages.</p><p>At least it is important to say, you can not go wrong with a Veuve Clicquot bottle as it is a great quality champagne and if you really want the perfect champagne moment, then you can also find some of their great accessories to accompany their champagne.</p><p></p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

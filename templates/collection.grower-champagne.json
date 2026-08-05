@@ -211,7 +211,7 @@
         "product_card_size": "medium",
         "mobile_product_card_size": "small",
         "enable_infinite_scroll": true,
-        "products_per_page": 16,
+        "products_per_page": 24,
         "product_grid_width": "centered",
         "full_width_on_mobile": true,
         "columns_gap_horizontal": 4,
@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Learn more about Grower champagne</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Grower champagne, also known as \"Récoltant-Manipulant\" (RM) champagne, is a unique and distinct category within the world of champagne production. Unlike traditional champagne houses that source grapes from various vineyards, grower champagne is crafted by individual grape growers who cultivate their own vineyards and produce champagne from their own grapes. Here's an overview of grower champagne and its defining characteristics:</p><p><strong>Independent Producers:</strong><br/>Grower champagne producers are independent grape growers who have a hands-on approach to their craft. They own and meticulously tend to their vineyards, overseeing every stage of production from grape cultivation to bottling.</p><p><strong>Emphasis on Terroir:</strong><br/>Terroir, the unique combination of soil, climate, and geography, plays a pivotal role in grower champagnes. Since the grapes come exclusively from the producer's estate or a small cluster of closely situated vineyards, the resulting champagne captures the essence of that specific terroir.</p><p><strong>Smaller Scale Production:</strong><br/>Grower champagne is typically produced on a smaller scale compared to larger champagne houses. This allows for greater attention to detail and a more hands-on approach, contributing to the artisanal nature of these champagnes.</p><p><strong>Artisanal Approach:</strong><br/>The artisanal approach of grower champagnes stems from the producers' intimate connection with their vineyards and grapes. This personal involvement often results in champagnes that exude a unique and individual character.</p><p><strong>Diverse Range of Styles:</strong><br/>Thanks to the emphasis on terroir and the artisanal approach, grower champagnes offer a diverse range of styles and flavors. Each producer's unique vineyard sites and winemaking techniques contribute to the wide spectrum of offerings within this category.</p><p><strong>Personal Expression:</strong><br/>Grower champagne producers have the creative freedom to express their individual winemaking style and philosophy. This leads to champagnes that offer a refreshing departure from the more standardized house styles of larger producers.</p><p><strong>Increasing Popularity:</strong><br/>In recent years, grower champagne has witnessed a surge in popularity among wine enthusiasts and connoisseurs. The focus on terroir-driven wines and the appeal of artisanal production have contributed to the growing fascination with these unique champagnes.</p><p><strong>Symbol of Authenticity:</strong><br/>For many wine enthusiasts, grower champagne symbolizes authenticity and a genuine connection to the land. It provides insight into the dedicated efforts of individual grape growers who are committed to producing high-quality champagne from their own vineyards.</p><p>In conclusion, grower champagne celebrates the marriage of terroir and craftsmanship. It offers a rare glimpse into the dedication of individual grape growers and their commitment to producing exceptional champagnes that reflect the distinct characteristics of their vineyards. This category provides a diverse array of flavors and styles, making it a captivating choice for those who appreciate the authenticity and diversity of champagne.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

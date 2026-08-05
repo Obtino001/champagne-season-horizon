@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Learn more about Louis Roederer</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Introduction:</strong></p><p>Indulge in the opulent world of Champagne with Louis Roederer, a prestigious Maison with a legacy dating back to 1776. Renowned for its unparalleled craftsmanship and commitment to excellence, Louis Roederer has consistently captivated connoisseurs with its luxurious Champagne offerings. Let's delve into the artistry and passion that have made Louis Roederer a symbol of sophistication.</p><p><strong>History and Heritage:</strong></p><p>Louis Roederer's story is one of tradition and innovation. Founded in Reims, France, the Maison has maintained a steadfast dedication to producing exceptional Champagne for over two centuries. Each bottle encapsulates the essence of the terroir and the skills passed down through generations, resulting in an extraordinary sensory experience.</p><p><strong>Craftsmanship and Winemaking:</strong></p><p>Louis Roederer's pursuit of excellence begins with the vineyards. Meticulously tended vines yield grapes of unparalleled quality, forming the foundation for their exquisite blends. The house's dedication to organic and biodynamic farming practices showcases their commitment to sustainable viticulture, ensuring the harmony between nature and craftsmanship.</p><p>The winemaking process at Louis Roederer is a harmonious dance of tradition and innovation. The precise art of assemblage, where different wines are expertly blended to achieve a harmonious balance, results in a symphony of flavors in every bottle. Their dedication to aging and maturation ensures that each Champagne reaches its optimal expression, inviting you to savor a moment of luxury.</p><p><strong>Prestigious Collections:</strong></p><p>Louis Roederer offers a range of prestigious Champagne collections, each telling a unique story. From the iconic \"Cristal,\" which has graced the tables of royalty and celebrities, to the refined \"Brut Premier\" that embodies the house style, and the exquisite \"Rosé Vintage\" with its delicate hues and vibrant character – there's a Champagne for every occasion and palate.</p><p><strong>Unveiling Unforgettable Flavors:</strong></p><p>Louis Roederer Champagnes are known for their remarkable depth and complexity. The \"Cristal\" boasts a harmonious blend of elegance and power, revealing notes of citrus, white flowers, and brioche. The \"Brut Premier\" captivates with its fresh fruitiness and fine bubbles, while the \"Rosé Vintage\" enchants with its red fruit aromas and remarkable finesse.</p><p><strong>A Sparkling Legacy:</strong></p><p>Louis Roederer's legacy is not only about producing exceptional Champagne but also about creating timeless moments. Whether celebrating life's milestones, sharing joy with loved ones, or savoring quiet contemplation, a glass of Louis Roederer Champagne elevates the experience.</p><p><strong>Conclusion:</strong></p><p>Elevate your Champagne journey with Louis Roederer, where tradition, innovation, and passion converge to create an unparalleled sensory experience. Explore their distinguished collections, immerse yourself in their storied history, and toast to life's moments with the elegance of Louis Roederer Champagne. Cheers to a legacy of excellence that continues to sparkle brightly through the ages.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

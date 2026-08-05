@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about J. Lassalle</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2><strong>J. Lassalle: A Legacy of Elegance</strong></h2><h3><strong>Introduction</strong></h3><p>J. Lassalle is a distinguished, family-run Champagne house located in the village of Chigny-les-Roses, in the Montagne de Reims. Founded in 1942 by Jules Lassalle, the estate is now managed by his daughter Chantal and granddaughter Angéline, representing three generations of women dedicated to preserving the family’s artisanal approach to Champagne.</p><h3><strong>Location and Terroir</strong></h3><p>Chigny-les-Roses is a Premier Cru village nestled between Reims and Épernay, known for its chalky-clay soils and balanced exposure — conditions that perfectly suit the cultivation of Pinot Noir, Pinot Meunier, and Chardonnay. The Lassalle family’s vineyards, spread across the Montagne de Reims, produce grapes that express both the structure of Pinot Noir and the freshness of Chardonnay, resulting in wines of harmony and refinement.</p><h3><strong>Champagnes Offered</strong></h3><h4><strong>Non-Vintage Champagnes</strong></h4><p>J. Lassalle’s non-vintage cuvées, such as <em>Preference</em> and <em>Rosé Brut</em>, are carefully blended from all three classic Champagne varieties. Aged for at least three years on the lees, they display the house’s signature style — generous, balanced, and beautifully textured, with a focus on expressing the elegance of the terroir.</p><h4><strong>Vintage Champagnes</strong></h4><p>In exceptional years, J. Lassalle produces vintage Champagnes that highlight the unique character of each harvest. These wines, aged for a minimum of five years, reveal remarkable depth and maturity, combining ripe fruit, fine minerality, and graceful aging potential.</p><h4><strong>Prestige Cuvées</strong></h4><p>The house’s prestige cuvée, <em>Cuvée Angéline</em>, represents the pinnacle of J. Lassalle’s craftsmanship. Made from the best grapes and aged for an extended period on the lees, it showcases remarkable complexity, finesse, and longevity — a testament to the family’s unwavering pursuit of excellence.</p><h3><strong>Winemaking Techniques</strong></h3><p>J. Lassalle remains committed to traditional winemaking methods established by its founder. Each step — from vineyard work to vinification and aging — is guided by a hands-on, artisanal philosophy. The wines are produced exclusively from estate-grown grapes, fermented in stainless steel to preserve purity, and aged in the family’s deep chalk cellars until they reach perfect maturity.</p><h3><strong>Conclusion</strong></h3><p>J. Lassalle stands as a shining example of Champagne’s grower-producer tradition, defined by integrity, precision, and a deep respect for heritage. With three generations of women at its helm, the house continues to craft Champagnes celebrated for their elegance, consistency, and timeless charm. </p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

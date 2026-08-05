@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Vintage accessories</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Our vintage accessories selection is chosen carefully and you can see it when you take a look at the different brands that we can provide. We carefully choose what accessories are for sale, as you can see for yourself. We have a lot of accessories from big brands like: Moët champagne bucket, Dom Perignon champagne bucket, Ruinart champagne bucket, Bollinger champagne bucket, Krug champagne bucket, Piper Heidsieck champagne bucket, Louis Roederer champagne bucket, Lanson champagne bucket, Cristal champagne bucket, Deutz champagne bucket, Ghmumm champagne bucket, Billecart Salmon champagne bucket, Veuve Clicquot champagne bucket, Taittinger champagne bucket, Charles Heidsieck champagne bucket. And we also have vintage champagne glasses and vintage champagne treys. We try to supply a wide selection of different brands. Take a look at the selection and have your perfect champagne dinner, champagne picnic or champagne tasting.</p><p></p><p>Everyone enjoys a good glass of champagne at least once in their life. The bubbly drink is made<br/>from the Champagne region of France and is often served as a social drink. Since ancient times<br/>have people enjoyed the taste of champagne. To celebrate with a bottle<br/>vintage champagne can be exciting, as the drink evokes memories of another era and provides an insight into the weather of that year. They say that wine is floating geography, when you drink vintage champagne it is floating history.<br/>Vintage champagne accessories create the perfect champagne moment, buy the right glasses and match a champagne bucket with a champagne bottle and then you are ready for the perfect champagne moment.<br/><br/>These decorations can add a lot of joy to the look of the bottle when you celebrate.<br/>Champagne accessories can help you celebrate special occasions by adding<br/>elements of style and elegance. Weddings and other events require unique gifts,<br/>which people will appreciate. These memorable gifts help people celebrate. Champagne accessories can complete the style of the party. People also celebrate birthdays with bottles of vintage champagne. Champagne lovers should own at least one vintage champagne bucket to complement theirs<br/>favorite drink. Various decorations make it easy to celebrate any occasion in style.<br/>Plus, owning vintage items helps you<br/>to create the perfect setting for your champagne. Anyone who loves vintage French items should definitely add some champagne accessories for their collection!</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

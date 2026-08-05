@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Delamotte</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Introduction:</strong></p><p>Step into the enchanting realm of Delamotte Champagne, where centuries-old tradition meets contemporary finesse. With a history tracing back to 1760, Delamotte is a beacon of elegance and craftsmanship in the world of Champagne. Join us as we unravel the allure of this prestigious maison, its dedication to heritage, and the extraordinary taste that sets Delamotte Champagne apart.</p><p><strong>A Tale of Tradition:</strong></p><p>Delamotte's journey begins in the heart of the Champagne region, where it has cultivated a legacy of authenticity and devotion to tradition. With a focus on Chardonnay, the maison's roots are firmly embedded in the vineyards, where each grape carries the essence of the terroir, contributing to the distinctive character of every bottle.</p><p><strong>Time-Honored Craftsmanship:</strong></p><p>Delamotte Champagne is a true testament to meticulous craftsmanship. The maison's commitment to artisanal techniques, combined with modern innovations, results in Champagne that captures the essence of the past while embracing the future. From vineyard cultivation to the cellar, every step of the winemaking process is a reflection of Delamotte's dedication to excellence.</p><p><strong>Cuvées of Distinction:</strong></p><p>Delamotte offers a range of cuvées that showcase the diversity of Champagne's terroirs. The \"Brut NV\" entices with its fresh and lively character, while the \"Blanc de Blancs\" captivates with its pure expression of Chardonnay. For those seeking elegance and complexity, the \"Rosé\" presents a delicate balance of red fruit notes and refined bubbles. Each cuvée carries a unique story, inviting you to embark on a sensory journey.</p><p><strong>Elevating Celebrations:</strong></p><p>Delamotte Champagne is more than a beverage; it's an experience that elevates celebrations to new heights. Whether you're marking special occasions, enjoying quiet moments of indulgence, or sharing joy with loved ones, a bottle of Delamotte enhances the sentiment and adds a touch of sophistication to every moment.</p><p><strong>A Legacy of Excellence:</strong></p><p>With a rich history and a dedication to quality, Delamotte Champagne has garnered recognition and acclaim from enthusiasts and experts alike. Its unwavering commitment to delivering exceptional Champagne has solidified its place among the most respected names in the industry, a testament to its enduring legacy.</p><p><strong>Conclusion:</strong></p><p>Delve into the world of Delamotte Champagne, where heritage, craftsmanship, and elegance merge to create an unparalleled experience. Celebrate the maison's longstanding tradition, savor the distinct flavors of its cuvées, and raise your glass to a legacy of excellence that has withstood the test of time. Whether you're a seasoned Champagne enthusiast or a newcomer to the world of bubbly, Delamotte invites you to discover the art of Champagne-making in its purest form. Cheers to the timeless elegance of Delamotte Champagne.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Guerlet-Deguerne</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2>A Family Tradition</h2><p><strong>Introduction</strong><br/><br/>Champagne Guerlet-Deguerne is a small, family-run Champagne producer based in the village of <strong>Chamery</strong>, located in the heart of the <strong>Montagne de Reims</strong> region. The estate has been family-owned for over six generations and is now led by the children of Patrice Guerlet and Véronique Deguerne, who are gradually taking over with a fresh and environmentally conscious vision.</p><p><strong>Location and Terroir</strong><br/><br/>Chamery lies within the Montagne de Reims, an area known for its rolling hills and diverse soils, particularly <strong>clay-limestone terroir</strong> that supports all three major Champagne grape varieties. Guerlet-Deguerne's vineyards reflect this diversity, and the family’s deep knowledge of the land allows them to craft wines with precision and character.</p><p><strong>Champagnes Offered</strong><br/><br/>Guerlet-Deguerne produces a thoughtful range of Champagnes that highlight the expression of their terroir and blend heritage with modernity.</p><p><strong>Non-Vintage Champagnes</strong><br/><br/>Their core cuvées typically feature blends of <strong>Pinot Noir, Pinot Meunier, and Chardonnay</strong>, vinified with care and aged extensively—often over 30 months—to bring balance and depth to the wines. Partial malolactic fermentation and stainless-steel vinification preserve freshness and purity.</p><p><strong>Rosé and Blanc de Blancs</strong><br/><br/>The house also produces a <strong>Brut Rosé d’assemblage</strong> that is vibrant and fruit-driven, as well as a <strong>Blanc de Blancs</strong> that emphasizes finesse, freshness, and fine mineral structure from their Chardonnay parcels.</p><p><strong>Special Cuvées</strong><br/><br/>Small-production still wines (Coteaux Champenois) and single-variety expressions—such as their 100% Meunier “Les Meuniers de Chamery”—showcase the estate’s willingness to explore and push boundaries while staying true to its roots.</p><p><strong>Winemaking Techniques</strong><br/><br/>The estate combines traditional methods with a commitment to sustainability. Guerlet-Deguerne became <strong>certified organic in 2023</strong>, a reflection of their work with cover crops, reduced chemical use, and soil health practices. Vinification occurs in stainless steel, oak barrels, or a combination, depending on the cuvée.</p><p><strong>Conclusion</strong><br/><br/>Champagne Guerlet-Deguerne is an exciting and authentic grower-producer, known for its <strong>family heritage, terroir-driven wines, and strong commitment to sustainability</strong>. With an increasing focus on precision and low-intervention viticulture, the estate is earning recognition for both its classic cuvées and innovative releases.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

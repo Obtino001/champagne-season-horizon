@@ -68,8 +68,8 @@
         "content_direction": "column",
         "gap": 32,
         "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 40,
-        "padding-block-end": 0
+        "padding-block-start": 36,
+        "padding-block-end": 36
       }
     },
     "form": {
@@ -133,8 +133,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 32,
-        "padding-block-end": 84
+        "padding-block-start": 36,
+        "padding-block-end": 36
       }
     }
   },

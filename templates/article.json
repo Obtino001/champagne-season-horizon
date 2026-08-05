@@ -40,7 +40,7 @@
           "name": "t:names.details",
           "settings": {
             "show_date": true,
-            "show_author": false,
+            "show_author": true,
             "alignment": "center",
             "show_alignment": true,
             "padding-block-start": 0,
@@ -76,9 +76,9 @@
         }
       },
       "block_order": [
+        "blog-post-image",
         "blog-post-title",
         "blog-post-details",
-        "blog-post-image",
         "blog-post-content"
       ],
       "settings": {

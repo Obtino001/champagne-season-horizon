@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Dom Perignon</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>The monk Dom Pierre Pérignon, who resided at the monastery in the village of Hautvillers in the Champagne area during the 18th century, is the inspiration for the name Dom Pérignon. Many people wrongly believe that the monk \"created\" champagne, but this is exaggerated because the process for making champagne existed before his time. But during his lifetime, he was crucial to the development of Champagne wines. However, the development of champagne production as we approximately understand it today only really began at the beginning of the 19th century, when a number of breakthroughs and process advancements occurred.</p><p>Dom Perignon is a world-renowned champagne and it is produced by Dom Pérignon themselves in Reims which is in the champagne district of France.  New bottles are only produced in years when the grapes are completely perfect and when the harvest has had the best conditions. This is for good reason because quality is not sacrificed here. Only vintage champagne, which is champagne made from a single year's harvest, is available from Dom Pérignon. Dom Pérignon, the highest cuvée of the champagne business Mot & Chandon, is owned by the latter. Dom Pérignon's first batch was created in 1921 and released in 1936.</p><p>Despite being radically different from one another, every vintage of Champagne is prepared from a combination of Pinot Noir and Chardonnay. Champagne by Dom Pérignon has excellent aging potential. To indicate how long this maturation process has been ongoing, the terms \"P1, P2, and P3\" are employed. P, which stands for plénitude, denotes the pinnacles of growth throughout each year where intensity and intricacy are at their highest. Former Dom Pérignon Chef de Cave Richard Geoffroy often talks about three plenitudes in the growth of Dom Pérignon, with the first P1 being obtained at the initial release, which is normally 8–10 years following the harvest year. Currently, the majority of the production is sold, and only a tiny portion is left in the cellar to continue to store without being disgorged.</p><p>With more time, the internal activity of the bottle rises, and the yeast gives the wine its vigor. Geoffroy and his crew regularly taste these wines, and when they determine that the next peak has been attained, some bottles are disgorged for release with the label designation P2, while a small amount is held in the cellar to present the final peak: P3. Only a very small number of bottles of P3 are made available, and these are frequently bottles that have been aged for 30, 40, or even 50 years. During this time, yeast residues protected the bottles from oxygenation and reinforced the mousse's rich, creamy flavor while still maintaining a good level of acidity to support the journey ahead. Geoffroy sums up the variations at Plénitude as follows: P1 is all about harmony, P2 is about energy, P3 is about integration and complexity.</p><p>No matter which champagne from Dom Perignon that you choose to drink you are always ensured the best of quality. These champagnes are great for keeping in your cellar and can gain from being kept both in taste but also in value as these bottles are great investments. But it is also a champagne to try at least once in your lifetime, view our celection of Dom Perignon products to create your perfect Dom Perignon moment.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

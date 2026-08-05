@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Why do you need champagne accessories in your restaurant?</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Here is why:</strong></p><p>Incorporating champagne and wine accessories into your restaurant can offer a range of benefits that enhance the overall dining experience and elevate your establishment's reputation. Here are some compelling reasons why having these accessories in your restaurant can be advantageous:</p><p><strong>1. Enhanced Ambiance and Aesthetics:</strong><br/>Champagne and wine accessories contribute to the visual appeal of your restaurant. Elegant glassware, sleek corkscrews, and stylish decanters can add a touch of sophistication to your tables, creating a more upscale and refined atmosphere.</p><p><strong>2. Elevate the Dining Experience:</strong><br/>Wine and champagne accessories enrich the sensory journey of your guests. Proper glassware enhances the aromas and flavors of the beverages, allowing patrons to fully appreciate the nuances of each vintage. Decanters and ice buckets provide an interactive element that adds to the overall experience.</p><p><strong>3. Showcase Attention to Detail:</strong><br/>Having high-quality accessories demonstrates your restaurant's commitment to excellence and attention to detail. It conveys that you care about providing the best possible experience to your patrons, setting you apart as a destination for those seeking a premium dining experience.</p><p><strong>4. Cater to Wine Enthusiasts:</strong><br/>Wine connoisseurs and enthusiasts often look for restaurants that offer a well-curated wine list and the appropriate accessories to complement their experience. By having these accessories, you attract a niche audience who values and appreciates fine wines.</p><p><strong>5. Differentiate Your Restaurant:</strong><br/>In a competitive restaurant industry, standing out is essential. Offering champagne and wine accessories can be a unique selling point that sets you apart from other establishments. It gives customers a reason to choose your restaurant over others and can lead to increased word-of-mouth referrals.</p><p><strong>6. Upselling Opportunities:</strong><br/>With the presence of wine and champagne accessories, you can create upselling opportunities. Offering premium wine pairings, special decanting services, or showcasing limited-edition glasses can encourage guests to explore your higher-end offerings.</p><p><strong>7. Memorable Experiences:</strong><br/>Wine and champagne accessories allow you to create memorable moments for your patrons. The ritual of decanting, the sparkle of crystal glassware, and the satisfying pop of a cork all contribute to a lasting impression that guests will fondly recall.</p><p><strong>8. Gifting and Merchandising:</strong><br/>You can extend your brand beyond the restaurant by offering wine and champagne accessories as merchandise or gift items. This provides an additional revenue stream and allows customers to take a piece of their dining experience home with them.</p><p><strong>9. Social Media Appeal:</strong><br/>Stylish champagne and wine accessories can make for visually appealing content on social media platforms. Guests are likely to share their dining experiences, including the elegant accessories, which can lead to increased online visibility and brand awareness.</p><p><strong>10. Complete the Fine Dining Experience:</strong><br/>For many patrons, fine dining goes beyond the food; it's about the whole experience. Champagne and wine accessories contribute to creating a comprehensive and immersive culinary journey that aligns with the expectations of discerning diners.</p><p>By incorporating champagne and wine accessories into your restaurant, you're not just adding objects to the table – you're enhancing the overall experience, signaling your dedication to quality, and creating a memorable impression that keeps customers coming back for more.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

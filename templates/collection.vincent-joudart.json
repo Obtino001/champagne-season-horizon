@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Vincent Joudart</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Vincent Joudart is a respected Champagne producer based in the Vallée du Petit Morin, in the village of Férebrianges.</strong> Here’s an overview of the estate and their approach to winemaking:</p><p><strong>Family Estate:</strong> Champagne Vincent Joudart is a family-run domaine with deep roots in the region. The estate has been passed down through generations, combining traditional savoir-faire with a modern outlook.</p><p><strong>Vineyard Location:</strong> The domaine is located in Férebrianges, a small village in the Vallée du Petit Morin, a lesser-known but increasingly recognized sub-region of Champagne. The area offers a unique microclimate and diverse soils, contributing to the character of the wines.</p><p><strong>Grape Varieties:</strong> The vineyards are planted with the classic Champagne grapes: <strong>Pinot Meunier, Pinot Noir, and Chardonnay</strong>, with a strong presence of Meunier, which thrives particularly well in this terroir.</p><p><strong>Winemaking Philosophy:</strong> Vincent Joudart balances traditional Champagne methods with thoughtful innovation. His wines are known for their clarity, freshness, and expressive fruit, often marked by precision and elegance.</p><p><strong>Sustainable Practices:</strong> The estate is certified <strong>HVE (Haute Valeur Environnementale)</strong>, reflecting a commitment to environmentally friendly viticulture—working with the land, preserving biodiversity, and reducing chemical inputs.</p><p><strong>Champagne Style:</strong> Joudart’s Champagnes are approachable yet complex, offering <strong>fruit-driven profiles with fine bubbles, bright acidity, and good structure</strong>. Each cuvée is crafted to highlight the identity of the Petit Morin terroir.</p><p>Vincent Joudart’s dedication to quality and sustainability, paired with his unique terroir, makes his Champagne a standout in our collection—loved by both casual drinkers and seasoned enthusiasts.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

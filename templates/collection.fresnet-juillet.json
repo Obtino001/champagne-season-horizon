@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Fresnet-Juillet</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Fresnet-Juillet is a family-run Champagne house based in the Grand Cru village of Verzy, within the Montagne de Reims. Established in 1952, the estate cultivates 5.7 hectares of vineyards, primarily growing Pinot Noir and Chardonnay. Their winemaking philosophy emphasizes tradition, precision, and terroir expression, ensuring that each cuvée reflects the unique characteristics of the region.</p><h3><strong>Special Club – A Signature Cuvée</strong></h3><p>One of Fresnet-Juillet’s most prestigious Champagnes is the <em>Special Club</em>, a limited-production cuvée that exemplifies their commitment to excellence. It is crafted from a blend of <strong>60% Chardonnay and 40% Pinot Noir</strong>, sourced exclusively from <strong>two select plots in Verzy</strong>. These vineyards benefit from the region’s chalky soils and cool climate, which contribute to the wine’s structure, minerality, and finesse.</p><p>The production process follows a meticulous approach:</p><p><strong>Fermentation:</strong> Conducted in <strong>stainless steel tanks</strong>, ensuring purity of fruit and freshness.</p><p><strong>Malolactic Fermentation:</strong> Allowed to soften acidity and enhance texture, contributing to a rounder, more balanced mouthfeel.</p><p><strong>Aging:</strong> The wine is aged extensively in Fresnet-Juillet’s <strong>historic 120-meter underground cellars</strong>, where stable temperatures and humidity allow for slow, refined maturation.</p><p><strong>Limited Production:</strong> Only <strong>2,500 bottles</strong> of Special Club Champagne are produced annually, with a highly limited allocation of just <strong>120 bottles</strong>.</p><h3><strong>Winemaking Approach</strong></h3><p>Beyond their Special Club cuvée, Fresnet-Juillet follows a traditional <strong>Champagne method</strong> across all their wines. Their commitment to excellence extends from vineyard management—where sustainable practices are prioritized—to vinification, where each parcel is carefully monitored to ensure the best possible expression of its terroir. Stainless steel tanks are used to preserve freshness, and malolactic fermentation is typically encouraged to balance acidity and enhance complexity.</p><h3><strong>The Influence of Terroir</strong></h3><p>Located in <strong>Verzy</strong>, one of Champagne’s esteemed <strong>Grand Cru villages</strong>, the vineyards of Fresnet-Juillet benefit from the region’s ideal growing conditions. The Montagne de Reims is known for its cool climate and chalky subsoils, which lend freshness, elegance, and longevity to the wines. The dominance of Pinot Noir in the region provides structure and depth, while Chardonnay contributes finesse and brightness.</p><h3><strong>Exclusive Membership in Club Trésors de Champagne</strong></h3><p>Fresnet-Juillet is a proud member of <strong>Club Trésors de Champagne</strong>, an exclusive association of grower-producers dedicated to crafting exceptional Champagnes that reflect their individual terroirs. The <em>Special Club</em> label is reserved for only the finest vintages, undergoing rigorous selection and approval processes before release. This ensures that only the highest-quality wines bear the designation, marking them as some of the best expressions of their respective houses.</p><h3><strong>Aging & Tasting Experience</strong></h3><p>Due to its extended aging process, the <em>Special Club Grand Cru Brut</em> develops an elegant profile with <strong>fine mousse, vibrant acidity, and layered complexity</strong>. Tasting notes often highlight:</p><p><strong>Aromas:</strong> White flowers, citrus zest, toasted almonds, and subtle brioche.</p><p><strong>Palate:</strong> A balance of crisp apple, pear, and lemon, complemented by hints of minerality and a creamy texture.</p><p><strong>Finish:</strong> Long and refined, with lingering freshness and depth.</p><h3><strong>A Champagne House Rooted in Tradition</strong></h3><p>With a dedication to craftsmanship, limited production, and a deep respect for terroir, Fresnet-Juillet continues to produce exceptional Champagnes that reflect the heritage of Verzy. Their wines, particularly the <em>Special Club Grand Cru Brut</em>, stand as a testament to the house’s philosophy—precision, tradition, and elegance in every bottle.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

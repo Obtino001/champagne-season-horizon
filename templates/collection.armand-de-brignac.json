@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Armand de Brignac</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Introduction:</strong></p><p>Indulge in the ultimate luxury experience with Armand de Brignac Champagne, an embodiment of sophistication and exclusivity. Renowned for its exquisite craftsmanship and iconic gold bottles, Armand de Brignac has redefined the art of Champagne-making. Join us as we uncover the allure of this prestigious Champagne house and its extraordinary range of offerings.</p><p><strong>Craftsmanship Beyond Compare:</strong></p><p>Armand de Brignac Champagne is the result of meticulous attention to detail and a commitment to artisanal craftsmanship. Each bottle is a masterpiece, meticulously handcrafted from vineyard to cellar. The house's dedication to traditional methods combined with innovative techniques ensures that every sip of Armand de Brignac Champagne is a true indulgence.</p><p><strong>Iconic Gold Bottles:</strong></p><p>Armand de Brignac is instantly recognizable by its signature gold-plated bottles, each meticulously adorned with a pewter ace of spades insignia. These bottles not only reflect the Champagne's exceptional quality but also embody the opulence and prestige for which the brand is known. The distinctive packaging is a testament to the dedication to luxury and elegance.</p><p><strong>A Range of Exquisite Flavors:</strong></p><p>Armand de Brignac Champagne offers a range of cuvées, each with its own unique personality and flavor profile. From the fresh and vibrant Brut Gold to the rich and complex Rosé, and the exceptional Blanc de Blancs with its pure Chardonnay expression, there's a Champagne for every discerning palate. The house's dedication to quality ensures that each cuvée is a symphony of flavors that captivates the senses.</p><p><strong>Moments of Celebration and Grandeur:</strong></p><p>Armand de Brignac Champagne is not just a drink; it's an experience that elevates any occasion. Whether you're commemorating milestones, sharing intimate moments, or making a statement at grand celebrations, Armand de Brignac adds an aura of luxury and elegance to the experience. Every bottle uncorks a moment of grandeur.</p><p><strong>Prestige and Exclusivity:</strong></p><p>Armand de Brignac Champagne has graced the tables of the world's most discerning connoisseurs, celebrities, and royalty. Its exclusivity and limited production enhance its allure, making it a coveted choice for those who appreciate the finest things in life.</p><p><strong>Conclusion:</strong></p><p>Discover the epitome of luxury and prestige with Armand de Brignac Champagne, where craftsmanship, elegance, and opulence intertwine to create an unrivaled experience. From the iconic gold bottles to the exquisite range of flavors, every aspect of Armand de Brignac reflects a commitment to excellence. Elevate your celebrations and indulge in a Champagne that embodies the art of luxury living. Cheers to the extraordinary world of Armand de Brignac Champagne</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

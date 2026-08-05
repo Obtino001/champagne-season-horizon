@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>About Denis Patoux</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>At Denis Patoux they make 100% of their production on site. This quarantees the smallest carbon footprint and ensures the quality of the champagne. In terms of who makes the champagne, the main part is by the family, but they have seasonal workers who help picking the grapes when they are ripe. Then they also have proffessional enologs to taste the champagne and put it together to create the best champagne possible. Again this ensures the absolutely best quality possible for their homemade champagne.</p><p>All of their champagne is aged in-house. Their non-vintage champagnes must be aged for at least 12 months on 'lees'. Their vintage champagnes are aged for much longer, their newest release is their millésime 2016 which has been aging for 6 years. At Denis Patoux they make a mix of lovely non-vintage champagne, where you can find most champagne styles available on the market. Other than that they also have a fantastic selection of vintage champagnes, as time goes we will try to expand our selection from Denis Patoux as we really believe in their product which is of high quality, while still being affordable.</p><p>Our selection of champagne from Denis Patoux is very wide and we provide a selection of all styles of champagne. In our selction you can find: Brut, Demi-sec, Blanc de Blancs, Non-vintage, Vintage champagne, but also Rosé champagne in both styles which are \"Saignée\" and \"Assamblage\" it is rare to see a producer of in house homemade champagne who procudes both kinds of Rosé champagne. Most champagne producers only make Rosé champagne with the \"Assamblage\" method because it is very hard to produce other ways when you are making big quantities. Denis Patoux can make these champagnes because they have a small but very high quality production. Do you have any questions to what champagne from Denis Patoux that fits you the best? If you are having a special dinner or desert and want to know what fits the best. Just reach out to us via email and we will guide you the best that we can. But something is for sure, you can never go wrong the the homemade champagnes from Denis Patoux champagne. View our collection and see what champagne you want to try next time.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

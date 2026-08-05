@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Piper-Heidsieck</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Introduction:</strong></p><p>Experience the essence of luxury and refinement with Piper-Heidsieck Champagne, a name synonymous with elegance and prestige since 1785. With a rich history spanning over 235 years, Piper-Heidsieck has redefined the Champagne landscape through its artful craftsmanship and innovative spirit. Join us as we unveil the allure of this iconic maison, its commitment to excellence, and the extraordinary taste that has captivated Champagne enthusiasts worldwide.</p><p><strong>Crafting Excellence:</strong></p><p>Piper-Heidsieck's journey begins in the vineyards, where meticulous care is given to each grape, reflecting the maison's dedication to crafting exceptional Champagne. From the grape to the glass, the artistry of winemaking is evident in every bottle, a true embodiment of tradition fused with contemporary expertise.</p><p><strong>Innovative Flair:</strong></p><p>Piper-Heidsieck Champagne is known for pushing the boundaries of creativity and innovation. Their commitment to quality is evident in their cuvées, where the marriage of different grape varieties and meticulous blending techniques results in a symphony of flavors that captivates the palate. The maison's avant-garde spirit resonates in every effervescent sip.</p><p><strong>Iconic Cuvées:</strong></p><p>Explore a range of iconic Piper-Heidsieck cuvées, each telling its own story. The \"Brut NV\" showcases a harmonious balance of fruitiness and freshness, while the \"Rosé Sauvage\" enchants with its lively red fruit notes. For those seeking opulence, the \"Cuvée Sublime\" presents a seductive blend of Chardonnay, Pinot Noir, and Meunier. Each cuvée is a testament to Piper-Heidsieck's commitment to producing exceptional Champagne.</p><p><strong>Moments of Celebration:</strong></p><p>Piper-Heidsieck Champagne elevates moments into memories. Whether you're celebrating life's milestones, sharing intimate moments with loved ones, or indulging in a moment of self-pampering, each bottle encapsulates the spirit of celebration and luxury.</p><p><strong>A Name of Distinction:</strong></p><p>Piper-Heidsieck's legacy has been marked by numerous accolades and endorsements from enthusiasts, critics, and sommeliers. Its consistent pursuit of excellence and its ability to evolve with changing tastes have established Piper-Heidsieck as a trusted name in the world of Champagne.</p><p><strong>Conclusion:</strong></p><p>Discover the allure of Piper-Heidsieck Champagne, where passion, innovation, and tradition come together to create an exceptional experience. Immerse yourself in a history of luxury, savor the unique flavors of their cuvées, and raise your glass to a maison that embodies the essence of celebration. Whether you're a seasoned Champagne aficionado or a newcomer to the world of bubbly, Piper-Heidsieck invites you to indulge in a taste of elegance and prestige. Cheers to the timeless legacy of Piper-Heidsieck Champagne.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

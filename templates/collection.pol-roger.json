@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Pol Roger</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Introduction:</strong></p><p>Step into a world of refined taste and sophistication with Pol Roger Champagne, a name that has been synonymous with luxury and elegance since 1849. With a legacy spanning over a century and a half, Pol Roger has mastered the art of Champagne-making, combining tradition, innovation, and meticulous craftsmanship. Join us as we uncover the allure of Pol Roger, its commitment to excellence, and the extraordinary flavors that have enchanted Champagne enthusiasts worldwide.</p><p><strong>A Heritage of Excellence:</strong></p><p>Pol Roger's history is steeped in tradition and a dedication to producing exceptional Champagne. Founded in Épernay, France, the maison has been crafting bubbling masterpieces that capture the essence of the region's terroir and the passion of its creators. Each bottle carries the legacy of the family's commitment to quality.</p><p><strong>Artisanal Craftsmanship:</strong></p><p>At the heart of Pol Roger Champagne lies an unwavering dedication to artisanal craftsmanship. From vineyard to cellar, every step of the winemaking process is carefully guided by tradition and expertise. The maison's hands-on approach ensures that each cuvée is a reflection of the family's commitment to producing Champagne of unparalleled quality.</p><p><strong>Iconic Cuvées:</strong></p><p>Explore a range of iconic Pol Roger cuvées that showcase the maison's expertise and attention to detail. The \"Brut Réserve\" entices with its balanced blend of Chardonnay, Pinot Noir, and Pinot Meunier, while the \"Blanc de Blancs\" captivates with its pure Chardonnay expression. For those seeking depth and complexity, the \"Cuvée Sir Winston Churchill\" pays homage to the maison's special connection with the iconic British statesman.</p><p><strong>Moments of Celebration:</strong></p><p>Pol Roger Champagne elevates celebrations to new heights of elegance and sophistication. Whether you're marking special occasions, sharing cherished moments, or toasting to life's milestones, each bottle encapsulates the spirit of joy and luxury, enhancing the sentiment of the moment.</p><p><strong>A Symbol of Prestige:</strong></p><p>Pol Roger's reputation for excellence has garnered acclaim from connoisseurs, sommeliers, and Champagne enthusiasts worldwide. Its selection as the official Champagne of the British Royal Court and its storied history have solidified Pol Roger's position as a symbol of prestige and refinement.</p><p><strong>Conclusion:</strong></p><p>Delve into the world of Pol Roger Champagne, where tradition, craftsmanship, and elegance converge to create an extraordinary experience. Explore the maison's heritage, savor the distinctive flavors of their cuvées, and raise your glass to a legacy that has stood the test of time. Whether you're an avid Champagne lover or a newcomer to the world of bubbly, Pol Roger invites you to embrace the essence of luxury and celebrate life's moments with grace. Cheers to the timeless elegance of Pol Roger Champagne.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

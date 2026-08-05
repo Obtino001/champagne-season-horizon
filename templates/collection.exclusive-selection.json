@@ -103,13 +103,13 @@
           "name": "t:names.filters",
           "static": true,
           "settings": {
-            "enable_filtering": true,
+            "enable_filtering": false,
             "filter_style": "horizontal",
             "filter_width": "centered",
             "text_label_case": "default",
             "show_swatch_label": false,
             "show_filter_label": false,
-            "enable_sorting": true,
+            "enable_sorting": false,
             "enable_grid_density": true,
             "padding-block-start": 8,
             "padding-block-end": 8,
@@ -211,7 +211,7 @@
         "product_card_size": "medium",
         "mobile_product_card_size": "small",
         "enable_infinite_scroll": true,
-        "products_per_page": 16,
+        "products_per_page": 24,
         "product_grid_width": "centered",
         "full_width_on_mobile": true,
         "columns_gap_horizontal": 4,
@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Learn more about rare champagne</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Introduction:</strong><br/>Champagne, the epitome of luxury and celebration, holds a realm beyond the ordinary - that of exclusive champagnes. These exquisite creations, meticulously crafted and often limited in production, embody elegance and opulence. In this article, we venture into the world of exclusive champagnes, delving into the reasons behind their escalating prices and unraveling the elements that make them a prized possession for connoisseurs and collectors alike.</p><p><strong>Craftsmanship and Quality:</strong><br/>Craftsmanship is the cornerstone of exclusive champagnes. Meticulous care from grape selection to the precise aging process in controlled cellars yields a taste that transcends mass-produced alternatives. Each bottle represents unparalleled quality, standing apart with a taste that is a testament to the dedication poured into its creation.</p><p><strong>Limited Production:</strong><br/>Exclusivity is inherent to these champagnes, as their production is intentionally limited. Champagne houses often curtail quantities, relying on remarkable vintages or rare grape varieties. This scarcity fuels demand among collectors and enthusiasts, resulting in an appreciable increase in their value over time. The rarity factor plays a pivotal role in the allure of exclusive champagnes.</p><p><strong>Unique Terroir:</strong><br/>\"Terroir,\" the intricate blend of soil, climate, and geography, shapes exclusive champagnes. Some hail from vineyards with distinctive characteristics that yield grapes of unmatched quality. These champagnes not only bear the essence of their origins but also flaunt flavor profiles that are coveted by aficionados seeking an extraordinary taste experience.</p><p><strong>Prestigious Heritage:</strong><br/>Many exclusive champagnes emerge from storied champagne houses with legacies spanning generations. These esteemed houses contribute to the elevated value of their exclusive offerings, weaving together tradition, craftsmanship, and heritage. Collectors are drawn to bottles that embody a connection to historical significance and craftsmanship, further enhancing their appeal.</p><p><strong>Artistic Expression:</strong><br/>The world of exclusive champagnes blends creativity with craftsmanship. Collaborations with renowned artists and designers result in packaging that mirrors the champagne's opulence. This fusion of artistic expression and masterful craftsmanship adds an additional layer of exclusivity, enticing both wine enthusiasts and art connoisseurs alike.</p><p><strong>Aging Potential:</strong><br/>Exclusive champagnes often boast impressive aging capabilities, contributing to their heightened value. As these bottles mature, their flavors evolve, delivering an ever-changing and profound tasting experience. Discerning collectors recognize that investing in carefully selected exclusive champagnes can yield substantial returns, both in terms of monetary value and the unparalleled sensory journey they provide.</p><p><strong>Rarity and Investment:</strong><br/>The rarity of exclusive champagnes elevates their status as potential investment assets. With demand consistently exceeding supply, the value of these bottles tends to ascend. Astute investors perceive a collection of exclusive champagnes as a shrewd long-term investment, promising not only financial appreciation but also unrivaled moments of indulgence.</p><p><strong>Conclusion:</strong><br/>Exclusive champagnes epitomize the fusion of artistry, craftsmanship, and scarcity. These bottles epitomize luxury and festivity while exuding an exceptional charm that captivates enthusiasts and collectors across the globe. From their limited production and distinctive terroir to their prestigious heritage and investment allure, the factors contributing to their escalating prices are as diverse as the multifaceted flavors they embody. As time ages these champagnes gracefully, their value continues to ascend, ensuring they remain not just a luxurious addition to celebrations but also a sound investment for those who relish life's finer offerings.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

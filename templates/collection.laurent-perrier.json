@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>About Laurent-Perrier</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>One of Champagne's most well-known families, Laurent-Perrier was established in the town of Tours-sur-Marne in 1812. Its house style, which emphasizes the Chardonnay grape variety in everything but the rosé wines, is renowned for its refinement and elegance.<br/><br/>In La Cuvée, Chardonnay makes up 55% of the blend (the renamed Brut Non-Vintage). Since the company had access to more Chardonnay vineyards in 2004, this percentage has grown. The dosage's sugar content has decreased from 12.5 to nine grams per liter.At Laurent-Perrier they use Pinot Noir in their champagne to add structure and durability across the board. Only trace amounts of Pinot Meunier are utilized in the La Cuvée Brut and Harmony Demi-Sec blends. There are fewer Brut Vintages produced than there are for some houses. Pinot Noir and Chardonnay are often blended in an equal amount to create both this and the Ultra Brut (a brut nature/zero dose wine).</p><p></p><p>The house's prestige cuvée, Grand Siècle, debuted in 1959. Given that it is a combination of three vintages, it is unique for a luxury Champagne. In essence, the house aims to regularly create wine that is on par with a hypothetical vintage release from a flawless year.<br/><br/>The corporation started using a \"Iteration number\" in 2019 to distinguish each release. Iteration 24 (the 24th Grand Siècle, from the 2007 (60 percent) 2006 and 2004 vintages) marked the start of this (20 percent each).</p><p></p><p>Two rosé Champagnes are produced by Laurent-Perrier in addition to these white wines (for which it is particularly well known). All of the Pinot Noir used to create the well-known Cuvée Rosé. The most expensive wine produced by the house, the vintage Cuvée Alexandra, has 20% Chardonnay.<br/><br/>To have better control over the blending process, the wines are vinified independently according to their vineyard. One of the earliest Champagne firms to use stainless steel tanks for fermentation was Laurent-Perrier.</p><p></p><p>In preparation of their future disgorgement and release, the firm has thousands of bottles preserved in 11 kilometers (seven miles) of cold, humid basements beneath the house in Tours-sur-Marne.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

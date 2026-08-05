@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Champagniør</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Your supplier of champagne art. High-quality frames, exclusive bottles and Danish craftsmanship. Danish produced and handmade works where quality and champagne art are the focus. We meet the customer's wishes and produce champagne art from the most exclusive bottles of the brands Ace of Spades, Moet, Dom perignon, Louis Roederer Cristal, Dom perignon Luminous and much more. All the art pieces are produced by the founders themselves and we therefore guarantee high quality of the Danish produced champagne art pieces.</p><p><br/>Whatever you are looking for in high-quality interior in the form of champagne art, you will find it in our range, or we can custom-make according to wishes and needs. Everything is possible and we can produce according to your wishes, nothing is too big or small. We can immortalize your champagne that you have used for weddings, birthdays, christenings or other important sights. We can immortalize the bottle that has a special meaning for you and what better way than in a champagne frame. Then we make sure to immortalize your old, important champagne bottle as part of your home forever.</p><p><br/>All the bottles are recycled and we therefore also have the green transition in focus when producing each individual champagne frame. Our frames are made by a machine joiner and are produced from black mdf, which is a material of fine wood fibers. MDF creates a fine surface and contributes to the high quality of our champagne frames and also to good appearance.</p><p><br/>The green transition is important to us and we constantly strive to optimize the form of our champagne frames and work to find environmental alternatives.</p><p><br/>We produce all frames with care and nothing is therefore accidental. The glass pieces are cleaned down to the tiniest bit and there is a great focus on the quality of each finished champagne frame. After cleaning, we place each individual piece of glass in the frame and subsequently coat them with epoxy. The epoxy helps to give a shiny and exclusive effect, so that everything fits into a larger unit.</p><p><a href=\"/pages/champagnior\" target=\"_blank\" title=\"Who are Champagniør\">Click here to read more about Champagniør</a></p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

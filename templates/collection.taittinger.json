@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>About Taittinger</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Taittinger is a legendary champagne house and their prestige champagne is even more legendary. Their prestige champagne is called Comptes de Champagne and that champagne is only produced in the best years. This makes it a vintage champagne and it is very good for investment, but it is also amazing to drink. The most known champagne from taittinger is comtes de champagne 2008 which. </p><p></p><p>These days Taittinger is managed by Vitalie Taittinger who is a part of the Taittinger family. She is the daughter of Pierre-Emmanuel Taittinger. It was revealed in October 2019 that Vitalie Taittinger will take office as president on December 31, 2019. She has been the company's director of marketing and communications for the past 12 years. With the help of Damien le Sueur, general manager, and her brother Clovis Taittinger, who will be elevated to general manager, she will now take on her new responsibilities.</p><p></p><p>Taittinger is known for their Comptes de Champagne, their \"normal\" Comptes de Champagne is made out of 100% Chardonnay which makes it a blancs de blancs (BdB). They also make a Rosé Comtes de Champagne which is made of 70% Pinot Noir and 30% chardonnay. It should also be noted that they make their champagne with the assamblage method which consits of blending the white champagne with red wine to create the beutiful color and taste of rosé champagne.</p><p></p><p>This champagne always has a lovely pale golden color. It has a flavor that is crisp, vibrant, and wonderfully balanced, with hints of honey and fresh fruit. The aftertaste is mild and moderately lengthy. Fruity and bready notes dominate the aroma of champagne, which gradually gives way to vanilla, white flowers, and notes of peach. The champagne is excellent as an aperitif and pairs nicely with lamb, shellfish, and mushroom meals.</p><p></p><p>Taittinger also produce cool accessories for their champagnes so you can enjoy the champagnes in the best enviroments possible. Grab yourself a bottle of Taittinger and a few champagne accessories and create your own perfect champagne moment. This would be a perfect idea for a birthday or a wedding or any other time where you can celebrate. And even if you dont have anything to celebrate Taittinger is always a good champagne. Browse our selection of products from Taittinger here.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

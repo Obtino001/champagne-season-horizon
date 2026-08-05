@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Sabrage card</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>How to pop champagne with a saberage card? </p><p>Since hot bottles can break, it's important to make sure that the bottle is cold. After removing the aluminum foil, loosen the cage holding the top portion of the bottle. Close the last ring of the bottle by raising it up and closing it around it. Use the chain to clip the cage to the card.</p><p>The bottle should be tilted away from objects and people. On the neck of the bottle, locate the glass junction's thread. Slide the card along this section, which will cause the ring of the bottle to vibrate, causing the cap to come off. The end of the neck should remain attached to the chain. Make sure to read the how to on the product page and in the product there is also a little piece of paper that will tell you how to do it.</p><p><br/>Champagne is a famous bubbly drink that is made from wine. It is a perfect choice for<br/>celebrations because it is both alcoholic and flavourful and the pop will always give people a smile on their lips and can always start the party. Many people enjoy champagne for weddings, birthdays and other celebrations. <br/>A saber card is a specially made tool used for sabering. It is made out of metal<br/>and is rectangular with 90 degree  edges which makes it possible for it so saber champagne, but it is not sharp enough to cut you. A sabrage card makes it easy sabrage the bottle without damaging yourself or the champagne. In addition, it is a great party trick and will bring you in the center of the party every time. Champagne is known as the bubbles of France; that's because it's made in France, in the part of france called champagne. The French are known worldwide for their culinary skills as well<br/>their fashion sense. They are also responsible for inventing both crêpe and pantyhose. One<br/>thing that everyone knows is how delicious and fashionable is champagne. People celebrate all sorts of things occasions with this popular drink: weddings, birthdays, graduations and much<br/>more. Anyone celebrating can use a sabrage card for their champagne to lighten up<br/>their experience even more.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

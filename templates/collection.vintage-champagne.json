@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Learn more about vintage champagne:</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Vintage champagne holds a special place in the world of sparkling wines, as it represents a unique and exceptional expression of the winemaker's art. Here are some key points to know about vintage champagne:</p><ol><li><strong>Harvested in Outstanding Years:</strong> Vintage champagne is crafted from grapes harvested in a single exceptional year. Unlike non-vintage (NV) champagnes that blend grapes from various years to maintain a consistent house style, vintage champagnes are a reflection of the specific weather conditions and grape quality of a particular vintage.</li><li><strong>Declared by the Producer:</strong> Not every year is suitable for producing vintage champagne. The decision to declare a vintage is made by the champagne house when they believe that the grapes from that year have reached an exceptional level of quality. This is why vintage champagnes are often more rare and sought after.</li><li><strong>Distinctive Flavors:</strong> The character of vintage champagne can be greatly influenced by the unique conditions of the harvest year. Warm or cool temperatures, rainfall patterns, and other weather factors impact grape ripening and flavor development. As a result, vintage champagnes often display more complex and nuanced flavors compared to non-vintage blends.</li><li><strong>Aging Potential:</strong> Vintage champagnes are known for their aging potential. Over time, the wine undergoes secondary fermentation in the bottle, resulting in the formation of delicate bubbles and contributing to its overall complexity. With proper storage, many vintage champagnes can continue to develop in the bottle, offering richer flavors and aromas over the years.</li><li><strong>Labeling and Regulations:</strong> To be labeled as a vintage champagne, certain regulations must be met. In Champagne, France, where true champagne originates, a vintage champagne must be made from grapes that all have been picked in the declared year. The year of the harvest, known as the \"vintage year,\" is indicated on the label.</li><li><strong>Price and Rarity:</strong> Due to the limited production and the meticulous selection of grapes from exceptional years, vintage champagnes are often priced higher than non-vintage varieties. The scarcity and the unique characteristics of these wines contribute to their increased value and appeal among collectors and enthusiasts.</li><li><strong>Diverse Champagne Houses:</strong> Various champagne houses, from well-established names to boutique producers, offer their own vintage expressions. Each house's style and approach to winemaking will shine through in their vintage offerings, making it an exciting journey for champagne enthusiasts to explore different producers.</li><li><strong>Special Occasions:</strong> Vintage champagnes are often reserved for special occasions and celebrations. Their distinctiveness and complexity make them a popular choice for commemorating significant milestones and moments.</li><li><strong>Realease date: </strong>Vintage champagne is also known as champagne millesimé, which comes from the word mille which means thousand. It is called this because the champagne must age at least 3 years which is a little over 1000 days. When it has aged for three years, they are now allowed to release it for sale. </li></ol><p>In summary, vintage champagne is a testament to the artistry of winemaking and the unique qualities of each harvest year. It offers a chance to experience the expression of a specific time and place, making it a cherished choice for those who appreciate the finer nuances of sparkling wine</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about José Michel</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<h2><strong>José Michel & Fils: The Art of Tradition</strong></h2><h3><strong>Introduction </strong></h3><p>José Michel & Fils is a historic, family-owned Champagne house located in the village of Moussy, near Épernay, in the heart of the Champagne region. Founded in 1847 and guided for decades by José Michel, the estate is now run by his son, Bruno Michel. The family is celebrated for its deep respect for tradition and its mastery of Meunier — a grape variety that has become the hallmark of their house style.</p><h3><strong>Location and Terroir</strong></h3><p>The vineyards of José Michel & Fils are situated primarily around Moussy and neighboring villages, benefiting from clay-limestone soils that bring both structure and elegance to the wines. The area’s temperate microclimate favors the ripening of Pinot Meunier, giving the Champagnes their distinctive roundness, fruitiness, and approachability, while smaller plantings of Chardonnay and Pinot Noir add balance and finesse.</p><h3><strong>Champagnes Offered</strong></h3><h4><strong>Non-Vintage Champagnes</strong></h4><p>The non-vintage Champagnes of José Michel & Fils, such as <em>Brut Tradition</em> and <em>Brut Rosé</em>, highlight the expressive character of Pinot Meunier. Aged for at least three years on the lees, these wines are known for their creamy texture, ripe orchard fruit flavors, and refined finish — a reflection of the house’s consistent quality and careful blending.</p><h4><strong>Vintage Champagnes</strong></h4><p>Produced only in outstanding years, José Michel’s vintage Champagnes are a testament to the estate’s craftsmanship and patience. Aged for a minimum of five years on the lees, these wines reveal remarkable depth, minerality, and aging potential, combining the generosity of Meunier with the elegance of Chardonnay.</p><h4><strong>Prestige Cuvées</strong></h4><p>At the pinnacle of the range are the Prestige Cuvées, such as <em>Special Club</em>. These Champagnes are crafted from the oldest vines and finest parcels of the family’s estate, aged for extended periods to achieve exceptional complexity, length, and balance. They embody the very essence of José Michel’s philosophy: authenticity and respect for terroir.</p><h3><strong>Winemaking Techniques</strong></h3><p>José Michel & Fils is renowned for its traditional approach to winemaking. The family employs careful vineyard management, low yields, and minimal intervention in the cellar to preserve the character of each vintage. Aging takes place in both stainless steel and older oak barrels, allowing subtle nuances to develop while maintaining freshness and purity.</p><h3><strong>Conclusion</strong></h3><p>With more than a century and a half of history, José Michel & Fils stands as one of Champagne’s classic grower-producers. Known as a true “Meunier specialist,” the house combines heritage, craftsmanship, and patience to create Champagnes of depth, balance, and enduring charm — wines that reflect both the legacy of the Michel family and the spirit of Champagne itself.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

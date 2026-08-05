@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Lasseaux</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Champagne Lasseaux: A Legacy of Passion and Excellence</strong></p><p><strong>Roots in Tradition:</strong> In the heart of the Marne Valley, Neuville-aux-Larris is where the story of Champagne Lasseaux begins. Claire Simone Geoffroy, grandmother of Baptiste and Vincent, laid the foundation. Born in 1922, she united with Jean-Louis Lasseaux in 1949, growing the family.</p><p><strong>Growing Through Generations:</strong> Jean-Louis' son, Philippe, learned alongside his father and embraced vineyard work. Expanding the vineyards, he planted Pinot Noir and Meunier, forming Champagne Lasseaux. The brand evolved, becoming Champagne Lasseaux and Fils in 2010.</p><p><strong>Generation change:</strong> Philippe handed down his 2.5-hectare legacy to his sons, Vincent and Baptiste. Vincent is focused on export and digital presence, while Baptiste is managing vineyard and cellar work, nurturing the brand.</p><p><strong>Tradition and Innovation:</strong> The Lasseaux brothers carry on their family's resilient spirit. With 6.5 hectares, they blend tradition with modernity, emphasizing terroir and expertise in crafting exceptional French champagne.\"</p><p><em>Champagne Lasseaux, Tradition, Terroir, Excellence, Family Legacy, Vineyards, Marne Valley, Passion, Craftsmanship.</em></p><p><a href=\"https://champagne-season.com/blogs/all-blogs/about-lasseaux\" target=\"_blank\" title=\"https://champagne-season.com/blogs/all-blogs/about-lasseaux\"><strong>Click here to learn more about Lasseaux</strong></a></p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

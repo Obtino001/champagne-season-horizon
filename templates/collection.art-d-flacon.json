@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>About Art d' Flacon</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>The story surrounding Art d'Flacon goes no further back than mid-2022. At a canteen table that has seen better days at a business school, the conversation was champagne, moreover, what a pity it is to get rid of a valued bottle once it has been drunk. From which it is quickly realized that it is not just a bottle, it is art. It is the whole essence, right down to the core of the respective champagne lover, precisely that a bottle for them is not just a bottle, but art. </p><p>At Art d'Flacon, we aim to revive the champagne bottle, which is otherwise usually left to collect dust, thrown into a glass container for no reason or something else entirely. As many champagne lovers often hide their exclusive champagne bottles, we saw an opportunity in reviving the bottles through the world of art. </p><p>Our vision is to allow champagne lovers to enjoy their champagne again. We believe that each bottle has its own unique story, which is also expressed in the story we would like to tell with each of our works. Champagne is much more than the fact of drinking the precious grapes. We believe that champagne consists of something bigger. Each harvest year is unique, and this is precisely what is also expressed in our works of art. The uniqueness of the bottle is also reflected in the fact that no two bottles are smashed the same, and therefore each work is unique and each has its own distinctive character. Each brand, each vintage, each shade and each frame has been carefully selected and handpicked with the singular purpose of hitting the nail on the head and creating a whimsical and extravagant experience. </p><p>It is also crucial within Art d'Flacon's four frameworks that the high-end champagne brands are carefully selected so that we can fulfill exactly the demand you have. We try to be consistent with the fact that we are constantly in the territory characterized by champagne brands that are associated with the highest qualifications from the top shelf, which we also aim to be with our products.</p><p><a href=\"https://champagne-season.com/pages/who-are-art-d-flacon\" target=\"_blank\" title=\"learn more about the art d' flacon team\">Click here to read more about the Art d' Flacon team.</a></p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

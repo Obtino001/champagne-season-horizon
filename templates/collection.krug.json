@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Krug</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Krug Champagne is a renowned and prestigious luxury champagne that has captivated wine enthusiasts for over 175 years. Founded by the visionary Krug family, the house has become synonymous with exceptional craftsmanship and unparalleled complexity in every bottle.</p><p><a href=\"https://mag.sommtv.com/2021/09/krug-champagne/\" target=\"_blank\" title=\"https://mag.sommtv.com/2021/09/krug-champagne/\">The journey of Krug</a> Champagne began with the Krug family's dedication to excellence. Milestones in their history have shaped their legacy, leading to their current position as a symbol of tradition and innovation in the world of <a href=\"https://www.thespruceeats.com/what-is-champagne-1328734\" target=\"_blank\" title=\"https://www.thespruceeats.com/what-is-champagne-1328734\">champagne</a>.</p><p>At the heart of Krug's winemaking process is the selection of exceptional vineyards. The Champagne region, with its unique terroir, provides the ideal conditions for cultivating grapes of exceptional quality. Krug carefully selects vineyards and practices sustainable viticulture to preserve the land for future generations.</p><p>The art of winemaking at Krug is a meticulous process. Grapes are harvested and sorted by hand, ensuring only the finest ones are used. Pressing and fermentation transform these grapes into wine, which is then aged in their historic cellars, allowing time to work its magic and develop exquisite flavors and aromas.</p><p>Krug offers a range of prestigious champagnes that exemplify their commitment to excellence. The <a href=\"https://www.krug.com/champagne/krug-grande-cuvee\" target=\"_blank\" title=\"https://www.krug.com/champagne/krug-grande-cuvee\">Krug Grande Cuvée</a>, their flagship offering, showcases the house's signature style. Vintage champagnes reveal the essence of exceptional years, while the <a href=\"https://www.krug.com/champagne/krug-rose\" target=\"_blank\" title=\"https://www.krug.com/champagne/krug-rose\">Krug Rosé</a> tantalizes with its delicate and seductive character. The rare and coveted Krug Single Vineyard releases, <a href=\"https://www.krug.com/champagne/krug-clos-du-mesnil\" target=\"_blank\" title=\"https://www.krug.com/champagne/krug-clos-du-mesnil\">Clos du Mesnil</a> and <a href=\"https://www.krug.com/champagne/krug-clos-dambonnay\" target=\"_blank\" title=\"https://www.krug.com/champagne/krug-clos-dambonnay\">Clos d'Ambonnay</a>, embody exclusivity and rarity.</p><p><a href=\"https://vertdevin.com/en/new-dining-experience-in-bordeaux-by-champagne-krug/\" target=\"_blank\" title=\"https://vertdevin.com/en/new-dining-experience-in-bordeaux-by-champagne-krug/\">The Krug experience</a> goes beyond the champagne itself. The Krug House welcomes visitors into a world of luxury and artistry, while their dedication to gastronomy elevates culinary experiences. <a href=\"https://www.luxuriousmagazine.com/the-krug-studio-experience-2022/\" target=\"_blank\" title=\"https://www.luxuriousmagazine.com/the-krug-studio-experience-2022/\">Collaboration with the music industry</a> further demonstrates their pursuit of harmony and inspiration.</p><p>Krug Champagne has earned global recognition and numerous awards, cementing its position as a leader in the industry. Their commitment to sustainability and corporate social responsibility is evident through their sustainable practices and the Krug Foundation's preservation of cultural and artistic heritage.</p><p>Appreciating Krug Champagne involves cellaring their wines to allow them to evolve and reach their full potential. Serving and pairing Krug champagnes with fine cuisine enhances the overall experience, elevating the enjoyment of these exceptional sparkling wines.</p><p>In conclusion, Krug Champagne is a symphony of complexity and opulence. With a rich heritage, meticulous winemaking techniques, and a commitment to quality, <a href=\"https://www.krug.com/\" target=\"_blank\" title=\"https://www.krug.com/\">Krug</a> continues to enchant wine enthusiasts with their exceptional champagnes. Each bottle tells a story of artistry, passion, and a relentless pursuit of perfection, inviting connoisseurs to savor a truly extraordinary and unforgettable experience.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Moët & Chandon</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>One bottle of Moët & Chandon is popped every second, and Moët & Chandon are the only brand which can say that. One of the biggest champagne makers in the world is Moët & Chandon. They are able to manufacture up to 26 million bottles of champagne each year, in one form or another. </p><p>You could compare it to the fact that a bottle of Moët & Chandon champagne is popped somewhere in the world every 6 seconds when output is this high. It's absurd to consider, but if you've ever tried one of their champagnes, you'll also understand why they are so well-liked: they are delicious. One of the most famous quality stamps one can obtain is that the company supplies champagne to Elizabeth II of Great Britain's royal court, which serves as a testament to the high quality of their champagnes.<br/><br/>Given that almost everyone is familiar with the brand and that they produce champagnes of exceptional quality, Moët & Chandon can be considered a well-known luxury brand in the champagne industry. As a result, their prices are slightly higher than those of the uninteresting champagnes available at the supermarket. Although their bottle costs are somewhat higher than those of the many bottles available at local shop, etc., they are nevertheless reasonable, making it easy for regular people to afford to enjoy their excellent champagnes.<br/><br/>Although Moët & Chandon offers champagnes to suit every taste, it is safe to say that their three most popular selections are Brut Imperial, Rose Imperial, and Nectar Imperial. In addition to offering champagne in the conventional sizes, Mot & Chandon is renowned for its enormous bottles. You can get champagne in bottles that are up to 6, 9, 12, and 15 litres in size, if you are willing to spend the money.<br/><br/>The company was established in 1743, which is when Moët & Chandon first appeared. The company had a very different appearance back then than it does now that it controls 1,000 hectares of grapes in the Champagne region.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

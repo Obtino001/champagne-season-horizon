@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about: Nominé-Renard</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Nominé-Renard</strong> is a respected Champagne producer located in the Côte des Blancs region, specifically in the Grand Cru village of Chouilly. Here's a concise overview of what defines Nominé-Renard:</p><ol><li><strong>Family Legacy</strong>: Nominé-Renard is a family-owned estate with a strong heritage in Champagne production. Their expertise is passed down through generations, focusing on maintaining traditional methods and high standards of quality.</li><li><strong>Vineyard and Terroir</strong>: Their vineyard is situated on the sun-drenched slopes of Chouilly, which is known for its ideal south-southeast exposure. This exposure contributes to the distinctive mineral and floral characteristics found in their Champagnes.</li><li><strong>Grape Varieties</strong>: The estate cultivates the classic Champagne grape varieties: Chardonnay, Pinot Noir, and Pinot Meunier. Each variety is carefully managed to enhance the complexity and balance of their blends.</li><li><strong>Winemaking Approach</strong>: As an Independent Grower (Récoltant-Manipulant), Nominé-Renard oversees the entire winemaking process, from vineyard management to bottling. This approach ensures a high level of control over the quality and style of their Champagne.</li><li><strong>Sustainability</strong>: They are committed to sustainable viticulture practices, focusing on preserving soil health and promoting biodiversity to ensure the long-term vitality of their vineyards.</li><li><strong>Champagne Style</strong>: Nominé-Renard is known for producing Champagne with a refined and elegant style, reflecting the unique characteristics of their terroir. Their wines are crafted to offer a harmonious balance of freshness, minerality, and depth.</li></ol><p>Nominé-Renard's dedication to quality, tradition, and sustainability makes their Champagne highly regarded among connoisseurs and enthusiasts.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

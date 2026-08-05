@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Paul Bara</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Paul Bara Champagne</strong> is a renowned champagne producer based in Bouzy, a village in the Montagne de Reims subregion of Champagne, France. Here are some key points about Champagne Paul Bara:</p><h3>History and Background:</h3><p><strong>Founded:</strong> The Bara family has been involved in viticulture since the 19th century, and Paul Bara established the champagne house in 1833.</p><p><strong>Location:</strong> Bouzy, Montagne de Reims, known for its Grand Cru vineyards, which are among the highest quality in Champagne.</p><p><strong>Ownership:</strong> The house remains family-owned, currently managed by Chantal Bara, who continues the family tradition.</p><h3>Vineyards and Terroir:</h3><p><strong>Vineyard Size:</strong> The estate owns around 11 hectares (approximately 27 acres) of vineyards.</p><p><strong>Classification:</strong> All vineyards are classified as Grand Cru, indicating the highest quality terroir in Champagne.</p><p><strong>Grape Varieties:</strong> Primarily Pinot Noir, which thrives in Bouzy’s terroir, with smaller amounts of Chardonnay.</p><h3>Winemaking Philosophy:</h3><p><strong>Traditional Methods:</strong> Paul Bara Champagne is known for its traditional and meticulous approach to winemaking.</p><p><strong>Aging:</strong> The champagnes are aged in cellars for extended periods, often surpassing the minimum requirements, which contributes to their complexity and depth.</p><h3>Notable Champagnes:</h3><p><strong>Paul Bara Brut Réserve:</strong> A classic expression of Bouzy's terroir, predominantly Pinot Noir with a smaller proportion of Chardonnay, offering rich fruit flavors and a refined structure.</p><p><strong>Paul Bara Special Club:</strong> Part of the prestigious Special Club, which represents the highest quality offerings from its member producers. This cuvée is only made in exceptional vintages.</p><p><strong>Paul Bara Rosé:</strong> Celebrated for its vibrant color and intense fruitiness, made primarily from Pinot Noir with a small addition of still red wine for color and flavor.</p><h3>Reputation:</h3><p><strong>Acclaim:</strong> Paul Bara Champagne is highly regarded by wine critics and enthusiasts for its consistency, quality, and traditional style.</p><p><strong>Distribution:</strong> While not as widely distributed as some larger houses, Paul Bara is cherished by connoisseurs and often found in fine wine shops and high-end restaurants.</p><h3>Sustainability:</h3><p><strong>Practices:</strong> The house emphasizes sustainable viticulture practices, respecting the environment and ensuring the health of the vineyards for future generations.</p><p>Paul Bara Champagne exemplifies the rich heritage and quality associated with the Champagne region, particularly the Grand Cru vineyards of Bouzy.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

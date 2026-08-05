@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>More about Champagne Frames</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Champagne frames are a modern but abstract work of art. Abstract means that something deviates from the general. In other words, all champagne frames are unique. It is absolutely impossible to create two identical works, as the bottle is smashed in a completely random way. The shards are put together in a presentable frame to create a special look. Champagne frames can be made in all sizes and with all bottles regardless of shape and size, so we can adapt to your wishes. The possibilities are many and nothing is impossible when it comes to champagne frames.<br/><br/>Each work is also equipped with a unique serial number, which depicts the unique work. Another of our important intentions is to maintain the high quality that is otherwise achieved by drinking the champagne. It is crucial that our champagne frames go together with the high-quality champagnes we use in our frames. We also do this to take the quality further.<br/><br/>In today's society, it is popular to stand out from the crowd, and this is one of our core intentions with our champagne frames. We (re)use expensive and rare bottles, which otherwise normally are thown out, we reuse the champagne bottles in our art. So you as a customer can enjoy your favorite champagne as a work of art that can be hung up or viewed wherever you want.</p><p></p><p>In this collection you will be able to find products like: Ruinart champagne frames, Dom Perignon champagne frames, Moët champagne frames, Veuve Clicuot champagne frames, Louis Roederer champagne frames, Krug champagne frames, Bollinger champagne frames, Lanson champagne frames, Deutz champagne frames, Dom Ruinart champagne frames, G.H.Mumm champagne frames. </p><p></p><p>The art of champagne frames is to carefully reusing the bottles and placing the pieces of smashed bottles in a stylish way to provide a piece of art for the real champagne lover. Improve your wine cellar or champagne bar with the champagne frame, check out our collection here.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }

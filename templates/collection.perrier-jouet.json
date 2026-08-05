@@ -222,10 +222,98 @@
         "padding-block-start": 36,
         "padding-block-end": 36
       }
+    },
+    "collection_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Learn more about Perrier-Jouët</h2>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "body": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p><strong>Introduction:</strong></p><p>Experience the epitome of sophistication with Perrier-Jouët Champagne, a name synonymous with luxury and artistic finesse. Since its establishment in 1811, Perrier-Jouët has continued to captivate Champagne enthusiasts with its exceptional craftsmanship, distinctive floral flavors, and a commitment to preserving the beauty of nature in every bottle.</p><p><strong>A Legacy of Excellence:</strong></p><p>Perrier-Jouët's legacy is steeped in tradition, innovation, and an unwavering dedication to quality. Founded in Épernay, France, the Champagne house has been a beacon of elegance for over two centuries. The Maison's passion for perfection is evident in every facet of their winemaking process, from vineyard cultivation to the final cork popping.</p><p><strong>Crafting Art in Every Bottle:</strong></p><p>At the heart of Perrier-Jouët's allure lies its dedication to artistic expression. The Champagne house is renowned for its delicate and intricate bottle designs, often featuring elegant floral motifs that mirror the intricate flavors within. This artistic approach pays homage to nature's beauty and showcases Perrier-Jouët's commitment to creating an experience that engages all the senses.</p><p><strong>Unveiling Nature's Elegance:</strong></p><p>Perrier-Jouët Champagne is renowned for its distinctive floral character, a hallmark of the house style. The delicate notes of white flowers, honeysuckle, and fresh fruit dance on the palate, creating a harmonious symphony of flavors. Whether you're indulging in their flagship \"Belle Epoque\" or exploring their \"Blason Rosé,\" each sip is a celebration of nature's elegance.</p><p><strong>Belle Epoque Collection:</strong></p><p>The \"Belle Epoque\" collection stands as a testament to Perrier-Jouët's commitment to artistic and sensory excellence. Adorned with the iconic anemone flower design, these Champagnes are a true embodiment of refinement. The \"Belle Epoque\" cuvées, including the prestige \"Belle Epoque Blanc de Blancs,\" are a homage to the past while embracing the future.</p><p><strong>Celebrating Life's Moments:</strong></p><p>Perrier-Jouët Champagne elevates ordinary moments into extraordinary memories. From intimate gatherings to grand celebrations, each bottle embodies the essence of elegance and luxury. Whether you're toasting to achievements, love, or simply life itself, Perrier-Jouët Champagne transforms the occasion into a masterpiece.</p><p><strong>Conclusion:</strong></p><p>Elevate your Champagne experience with Perrier-Jouët, where history, artistry, and elegance converge in every effervescent sip. Immerse yourself in a legacy that spans generations, celebrating the delicate beauty of nature and the joy of shared moments. Discover the enchanting world of Perrier-Jouët Champagne and savor the refined flavors that have graced glasses for over two centuries. Cheers to a journey of taste, art, and timelessness.</p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "body"
+      ],
+      "name": "t:names.rich_text_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.background }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 40,
+        "padding-block-end": 52
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "collection_text"
   ]
 }
