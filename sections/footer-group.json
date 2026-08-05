@@ -313,7 +313,7 @@
         "section_width": "page-width",
         "gap": 32,
         "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 36,
+        "padding-block-start": 84,
         "padding-block-end": 36
       }
     },
