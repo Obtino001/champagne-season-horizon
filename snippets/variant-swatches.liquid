@@ -185,7 +185,7 @@
                   type="radio"
                   name="{{ product_option.name | escape }}-{{ product_resource.id }}-swatch"
                   value="{{ product_option_value | escape }}"
-                  aria-label="{{ product_option_value.name }}"
+                  aria-label="{{ product_option_value.name | strip_html | strip | escape }}"
                   data-input-id="{{ product_option.position }}-{{ forloop.index0 }}"
                   data-option-name="{{ product_option.name | escape }}"
                   data-option-media-id="{{ featured_media.id }}"

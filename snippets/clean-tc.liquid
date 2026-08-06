@@ -1,0 +1,21 @@
+{%- doc -%}
+  Strips Translate & Adapt / Transcy `<tc>` wrappers (and any other HTML) from a
+  string so they never show as literal text after `| escape`.
+
+  Use only for *display* text. Keep original values for form `value` /
+  `data-option-name` attributes so variant matching still works.
+
+  @param {string} text - The string to clean
+  @param {boolean} [escape] - Whether to HTML-escape the result (default true)
+
+  @example
+  {% render 'clean-tc', text: product_option.name %}
+{%- enddoc -%}
+{%- liquid
+  assign cleaned = text | strip_html | strip
+  if escape != false
+    echo cleaned | escape
+  else
+    echo cleaned
+  endif
+-%}

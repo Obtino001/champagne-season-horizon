@@ -12,6 +12,11 @@ body {
   font-variation-settings: 'slnt' 0;
 }
 
+/* Translate & Adapt / Transcy wrappers — hide the tags, keep the text. */
+tc {
+  display: contents;
+}
+
 :root {
   --hover-lift-amount: 4px;
   --hover-scale-amount: 1.03;
