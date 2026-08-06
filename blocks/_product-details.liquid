@@ -68,6 +68,21 @@
       align-self: var(--details-position, 'flex-start');
     }
   }
+
+  /* Product title + prices: bold to match the storefront look. */
+  .product-details .text-block.custom-typography h1 {
+    font-weight: 700;
+  }
+
+  .product-details product-price.custom-typography,
+  .product-details product-price.custom-typography .price,
+  .product-details product-price.custom-typography .compare-at-price {
+    font-weight: 700;
+  }
+
+  .product-details product-price .compare-at-price {
+    color: rgb(var(--color-foreground-rgb) / 0.75);
+  }
 {% endstylesheet %}
 
 {% schema %}
