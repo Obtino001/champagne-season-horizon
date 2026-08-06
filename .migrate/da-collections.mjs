@@ -21,15 +21,27 @@ const entities = (s) =>
     .replace(/&gt;/g, '>')
     .replace(/&amp;/g, '&');
 
+/** Strip Shopify Translate & Adapt <tc> wrappers that sometimes leak into HTML. */
+const stripTc = (s) => s.replace(/<\/?tc>/gi, '');
+
 const inner = (s) =>
-  entities(s)
+  stripTc(entities(s))
     .replace(/\s+/g, ' ')
     .replace(/>\s+</g, '><')
     .replace(/(<(?:p|h[1-6])>)\s+/g, '$1')
     .replace(/\s+(<\/(?:p|h[1-6])>)/g, '$1')
     .trim();
 
-const plain = (s) => entities(s.replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim();
+const plain = (s) =>
+  stripTc(entities(s.replace(/<[^>]*>/g, ' '))).replace(/\s+/g, ' ').trim();
+
+/** Template filename → live collection handle when they differ. */
+const HANDLE_MAP = {
+  'bottle-cover': 'flaske-skjulere',
+  lassalle: 'j-lassalle',
+  'sabrage-card': 'sciaboliamo-sabrage-card',
+  'h-goutorbe-2': 'h-goutorbe',
+};
 
 const loadJson = (p) => {
   const raw = fs.readFileSync(p, 'utf8');
@@ -99,7 +111,8 @@ let videoDescRemoved = 0;
 const problems = [];
 
 for (const file of files) {
-  const handle = file.replace(/^collection\./, '').replace(/\.json$/, '');
+  const handle = HANDLE_MAP[file.replace(/^collection\./, '').replace(/\.json$/, '')] ||
+    file.replace(/^collection\./, '').replace(/\.json$/, '');
   const p = path.join('templates', file);
   const { header, data } = loadJson(p);
 

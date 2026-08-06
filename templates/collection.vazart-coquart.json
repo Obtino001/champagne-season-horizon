@@ -230,7 +230,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>More about: Vazart-Coquart</h2>",
+            "text": "<h2>Mere om: Vazart-Coquart</h2>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -255,7 +255,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Read more below the video.</p>",
+            "text": "<p>Læs mere under videoen.</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -336,36 +336,10 @@
             "padding-inline-end": 0
           },
           "blocks": {}
-        },
-        "description": {
-          "type": "text",
-          "name": "t:names.description",
-          "settings": {
-            "text": "<p>Learn more about Vazart-Coquart champagne.</p>",
-            "width": "100%",
-            "max_width": "none",
-            "alignment": "center",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "video",
-        "description"
+        "video"
       ],
       "name": "t:names.video_section",
       "settings": {
@@ -403,7 +377,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h3>Vazart-Coquart & Fils Champagne: Small quantity, amazing quality.</h3><h4><strong>Introduction</strong></h4><p>Vazart-Coquart & Fils Champagne is situated in the town of Chouilly (Grand Cru) in the Champagne region of France. Established in 1954, the house is relatively young but has quickly gained a reputation for producing exceptional Champagnes.</p><p>Started to make Special Club champagnes in 1996. And Jean-Pierre Vazart was the Special Club president from 2020 to 2023.</p><h4><strong>Vineyards and Terroir</strong></h4><p>With 11 hectares located in the unique terroir of Grand Cru de la Côte des Blancs outside the village of Chouilly, east of Épernay, there was a solid foundation for great Champagne from the start. The vineyards are spread across 30 parcels, with Chardonnay being the dominant grape variety.</p><h4><strong>Three Generations of Excellence</strong></h4><p>Three generations have succeeded each other since the house's founding. Louis, Jacques, and Jean-Pierre have all contributed to its development. In the early 1950s, Jacques Vazart convinced his father, Louis, and his brother, René, to start producing Champagne from the vines already on the family's land. The first bottles were released in 1954 under the name \"Louis Vazart.\" They quickly gained attention, and shortly after, Louis and his wife, Marie Coquart, merged their surnames to form Vazart-Coquart.</p><h4><strong>The Present and Future</strong></h4><p>Today, Jean-Pierre Vazart is at the helm. He began working with his father, Jacques, in 1991. They expanded the business by acquiring more land and improving quality. By the time he officially took over in 1995 with his wife, Caroline, the future of the Champagne house was already promising.</p><h4><strong>Commitment to Quality and Sustainability</strong></h4><p>In 2017, the vineyards were converted to organic farming, and the entire vineyard was certified in 2020. This has given the wines a final push into the Champagne stratosphere, where elegance and memorability reign supreme.</p>",
+            "text": "<h3>Vazart-Coquart & Fils Champagne: Lille mængde, fantastisk kvalitet.</h3><h4><strong>Introduktion</strong></h4><p>Vazart-Coquart & Fils Champagne er beliggende i byen Chouilly (Grand) Cru) i Champagne-regionen i Frankrig. Etableret i 1954, er huset relativt ungt, men har hurtigt fået et ry for at producere exceptionelle champagner.</p><p>De begyndte at lave Special Club-champagner i 1996. Og Jean-Pierre Vazart var Special Club-præsidenten fra 2020 til 2023.</p><h4><strong>Vinmarker og terroir</strong></h4><p>Med 11 hektar beliggende i det unikke terroir Grand Cru - la Côte des Blancs uden for landsbyen Chouilly, øst for Épernay, var der en solidt grundlag for god Champagne fra starten. Vinmarkerne er fordelt på 30 parceller, hvor Chardonnay er den dominerende druesort.</p><h4><strong>Three Generations of Excellence</strong></h4><p>Tre generationer har afløst hinanden siden husets grundlæggelse. Louis, Jacques og Jean-Pierre har alle bidraget til dens udvikling. I begyndelsen af ​​1950'erne overbeviste Jacques Vazart sin far, Louis, og sin bror, René, til at begynde at producere Champagne fra vinstokkene, der allerede er på familiens jord. De første flasker blev udgivet i 1954 under navnet \"Louis Vazart.\" De fik hurtigt opmærksomhed, og kort efter slog Louis og hans kone, Marie Coquart, deres efternavne sammen til Vazart-Coquart.</p><h4><strong>Nutiden og fremtiden</strong></h4><p>I dag, Jean-Pierre Vazart er ved roret. Han begyndte at arbejde sammen med sin far, Jacques, i 1991. De udvidede virksomheden ved at erhverve mere jord og forbedre kvaliteten. Da han officielt tog over i 1995 med sin kone, Caroline, var fremtiden for Champagnehuset allerede lovende.</p><h4><strong>Forpligtelse til kvalitet og bæredygtighed</strong></h4><p>I 2017 , blev vinmarkerne omlagt til økologisk landbrug, og hele vingården blev certificeret i 2020. Det har givet vinene et sidste skub ind i Champagne-stratosfæren, hvor elegance og mindeværdighed hersker.</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",

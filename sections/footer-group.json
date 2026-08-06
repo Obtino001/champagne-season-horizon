@@ -183,7 +183,7 @@
             "mission_text": {
               "type": "text",
               "settings": {
-                "text": "<p>We collect Champagne and happy customers. Join our newsletter to join our community of 1000+ Champagne lovers.</p>",
+                "text": "<p>Vi samler på champagne og glade kunder. Tilmeld dig vores nyhedsbrev for at blive medlem af vores fællesskab af 1000+ champagneelskere.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
