@@ -393,7 +393,7 @@
                   "type": "_accordion-row",
                   "name": "t:names.accordion_row",
                   "settings": {
-                    "heading": "Shipping",
+                    "heading": "Forsendelse",
                     "open_by_default": false,
                     "icon": "truck",
                     "width": 20
@@ -403,7 +403,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "text": "<p><strong>We have 2 ways of shipping packages. Read here:</strong></p><p></p><p><strong>In stock</strong> - We ship packages each day from monday to friday. In case of a bigger order or a lot of orders it may take us up to 2 weekdays to ship your package.</p><p></p><p><strong>Item on request</strong> - This item is not in stock, but you can still buy and we will ship as soon as the item is  back in stock. When you order the product is expected to be ready for shipping in 5-10 working days. After that you will get notified and the product will be sent to you. The delivery time depends on the distance to the seller and therefore cannot be guaranteed.</p><p></p><p><strong>Taxes</strong></p><p>All orders are shipped from Denmark, taxes may be added depending of the order and where it is being sent to. You are more than welcome to write to us if you want to know more before ordering.</p><p></p><p><strong>Exice duty</strong></p><p>All orders of champagne to outside of Denmark will have to pay a small fee called exice duty. This fee is typically around 1-5 Euro per bottle.</p>",
+                        "text": "<p><strong>Vi har 2 måder at sende pakker på. Læs her:</strong></p><p></p><p><strong>På lager</strong> - Vi sender pakker hver dag fra mandag til fredag. I tilfælde af en større ordre eller mange ordrer kan det tage os op til 2 hverdage at sende din pakke.</p><p></p><p><strong>Bestillings vare</strong> - Denne vare er ikke på lager, men du kan stadig købe og vi sender så snart varen er på lager igen. Når du bestiller, forventes produktet at være klar til forsendelse i løbet af 5-10 hverdage. Derefter vil du få besked, og produktet vil blive sendt til dig. Leveringstiden afhænger af afstanden til sælger og kan derfor ikke garanteres.</p><p></p><p><strong>Afgifter</strong></p><p>Alle ordrer sendes fra Danmark, afgifter kan evt. tilføjes afhængig af ordren og hvor den sendes til. Du er mere end velkommen til at skrive til os, hvis du vil vide mere inden du bestiller.</p><p></p><p><strong>Punktafgift</strong></p><p>Alle bestillinger af champagne med levering uden for Danmark skal betale et mindre gebyr kaldet Punktafgift. Dette gebyr er typisk omkring 1-5 Euro pr. flaske.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",
