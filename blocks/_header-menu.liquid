@@ -818,6 +818,23 @@
       background-color: rgb(var(--color-foreground-rgb) / 0.05);
     }
 
+    /* Every second-level row reads the same, whether or not it has children.
+       Stock markup only tags the ones with children as `--parent`, which left
+       the childless ones styled as third-level links. */
+    .menu-list__submenu .mega-menu__column > div > .mega-menu__link {
+      font-family: var(--menu-parent-font-family);
+      font-style: var(--menu-parent-font-style);
+      font-weight: var(--menu-parent-font-weight);
+      font-size: var(--menu-parent-font-size);
+      line-height: var(--menu-parent-font-line-height);
+      text-transform: var(--menu-parent-font-case);
+      color: var(--menu-parent-font-color);
+    }
+
+    .menu-list__submenu .mega-menu__column > div > .mega-menu__link:hover {
+      color: var(--menu-parent-active-font-color);
+    }
+
     /* Third level opens to the side of its parent row. */
     .menu-list__submenu .mega-menu__column > div {
       position: relative;
