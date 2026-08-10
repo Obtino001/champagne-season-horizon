@@ -395,11 +395,29 @@
     transform: translateY(0.05em) rotate(-135deg);
   }
 
-  /* Dawn-style nested dropdown: sits under the parent item, not full-width. */
+  /* Nested dropdown must not paint while the overflow drawer is hidden.
+     visibility:visible on a child beats visibility:hidden on the parent. */
+  .menu-list__list-item[slot='overflow'] .menu-list__dropdown--nested {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .overflow-menu::part(list) {
+    overflow: visible;
+  }
+
+  .menu-list__list-item:where(:not([slot='overflow'])) {
+    position: relative;
+  }
+
   .menu-list__list-item:where(:not([slot='overflow'])) > .menu-list__submenu--nested {
     --submenu-padding-block-start: 0;
     --submenu-padding-block-end: 0;
+    --submenu-content-opacity: 0;
 
+    visibility: hidden;
+    pointer-events: none;
     width: max-content;
     min-width: 14.5rem;
     max-width: 20rem;
@@ -408,9 +426,20 @@
     padding-inline: 0;
     clip-path: none;
     top: 100%;
+    z-index: 20;
     background-color: var(--color-background, #fff);
     border: 1px solid rgb(var(--color-foreground-rgb) / 0.12);
     box-shadow: 0 4px 18px rgb(var(--color-foreground-rgb) / 0.08);
+  }
+
+  .menu-list__list-item:where(:not([slot='overflow'])):has(> .menu-list__link[aria-expanded='true'])
+    > .menu-list__submenu--nested,
+  .menu-list__list-item:where(:not([slot='overflow'])):has(> .menu-list__link[aria-expanded='true'])
+    > .menu-list__submenu--nested:hover {
+    --submenu-content-opacity: 1;
+
+    visibility: visible;
+    pointer-events: auto;
   }
 
   .menu-list__submenu--nested .menu-list__submenu-inner {
@@ -420,6 +449,7 @@
     padding-inline: 0;
     max-height: min(80vh, 32rem);
     overflow: visible;
+    opacity: 1;
   }
 
   .menu-list__dropdown {
@@ -482,7 +512,9 @@
     z-index: 2;
   }
 
-  .menu-list__dropdown-item--has-children:is(:hover, :focus-within) > .menu-list__dropdown--nested {
+  .menu-list__list-item:where(:not([slot='overflow']))
+    .menu-list__dropdown-item--has-children:is(:hover, :focus-within)
+    > .menu-list__dropdown--nested {
     visibility: visible;
     opacity: 1;
     pointer-events: auto;
@@ -490,25 +522,6 @@
 
   .menu-list__dropdown--nested .menu-list__dropdown-link {
     white-space: normal;
-  }
-
-  .menu-list__list-item[slot='overflow'] .menu-list__submenu--nested {
-    min-width: 0;
-    max-width: none;
-    border: none;
-    box-shadow: none;
-    background: transparent;
-  }
-
-  .menu-list__list-item[slot='overflow'] .menu-list__dropdown--nested {
-    position: static;
-    visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
-    max-height: none;
-    border: none;
-    box-shadow: none;
-    padding-inline-start: 0.75rem;
   }
 
   .menu-list__list-item:not([slot='overflow']) {
