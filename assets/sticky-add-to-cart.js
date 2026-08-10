@@ -276,7 +276,9 @@ class StickyAddToCartComponent extends Component {
     if (!variantTitleElement || !variantPicker) return;
 
     const selectedOptions = Array.from(variantPicker.querySelectorAll('input:checked'))
-      .map((option) => /** @type {HTMLInputElement} */ (option).value)
+      .map((option) =>
+        /** @type {HTMLInputElement} */ (option).value.replace(/<[^>]*>/g, '').trim()
+      )
       .filter((value) => value !== '')
       .join(' / ');
     if (!selectedOptions) return;

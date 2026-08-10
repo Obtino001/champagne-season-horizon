@@ -58,7 +58,7 @@
         <div
           class="sticky-add-to-cart__image"
         >
-          {% assign image_alt = image_to_show.alt | default: product.title | escape %}
+          {% assign image_alt = image_to_show.alt | default: product.title | strip_html | strip | escape %}
           {{
             image_to_show
             | image_url: width: 120
@@ -96,7 +96,7 @@
           class="sticky-add-to-cart__title"
           data-testid="sticky-product-title"
         >
-          {{ product.title | escape }}
+          {% render 'clean-tc', text: product.title %}
         </p>
         <div
           class="sticky-add-to-cart__variant"
@@ -107,9 +107,8 @@
         >
           {% unless product.has_only_default_variant %}
             {% if current_variant != blank %}
-              {% assign variant_title = current_variant.title | escape %}
+              {% render 'clean-tc', text: current_variant.title %}
             {% endif %}
-            {{ variant_title }}
           {% endunless %}
         </div>
       </div>
