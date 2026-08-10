@@ -752,8 +752,8 @@
       "name": "t:names.media_with_text",
       "settings": {
         "media_position": "left",
-        "media_width": "medium",
-        "media_height": "auto",
+        "media_width": "wide",
+        "media_height": "80svh",
         "section_width": "page-width",
         "extend_media": false,
         "background_color": "{{ settings.color_palette.background }}",
@@ -1667,7 +1667,7 @@
               "settings": {
                 "image": "shopify://shop_images/deutz.jpg",
                 "link": "https://champagne-season.com/collections/vintage-accessories",
-                "image_ratio": "square",
+                "image_ratio": "adapt",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fit-content",
