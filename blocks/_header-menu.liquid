@@ -731,6 +731,58 @@
   }
 
   /* Compact dropdown styles removed to allow full-bleed mega menu */
+
+  /* CUSTOM MEGA MENU DESIGN (Reference: premiumbottles.dk) */
+  
+  /* Enforce beige background for mega menu dropdown */
+  .header__underlay {
+    --color-submenu: #FBF8F1 !important;
+  }
+  .menu-list {
+    --color-submenu-surface: #FBF8F1 !important;
+  }
+  
+  .menu-list__submenu-inner {
+    background-color: #FBF8F1 !important;
+  }
+
+  .mega-menu__grid {
+    /* Increase gap between columns */
+    gap: 2rem 5rem !important;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  /* Level 2 Links (Column Headers) */
+  .mega-menu__link--parent {
+    text-transform: uppercase !important;
+    font-size: 11px !important;
+    letter-spacing: 1.5px !important;
+    color: #8c8c8c !important; /* muted color */
+    font-weight: 600 !important;
+    margin-bottom: 12px !important;
+    padding-bottom: 0 !important;
+  }
+  
+  /* Remove any caret arrow from parent links if present */
+  .mega-menu__link--parent::after {
+    display: none !important;
+  }
+
+  /* Level 3 Links (Sub links) */
+  .mega-menu__column > div > ul > li > .mega-menu__link {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: #222 !important;
+    padding: 6px 0 !important;
+    transition: opacity 0.2s ease;
+  }
+
+  .mega-menu__column > div > ul > li > .mega-menu__link:hover {
+    opacity: 0.6 !important;
+    color: #222 !important;
+  }
+
 {% endstylesheet %}
 
 {% schema %}
