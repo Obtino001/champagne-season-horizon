@@ -748,9 +748,9 @@
 
   .mega-menu__grid {
     /* Increase gap between columns */
-    gap: 2.5rem 6rem !important;
-    padding-top: 2.5rem !important;
-    padding-bottom: 3.5rem !important;
+    gap: 1.5rem 3rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 2rem !important;
   }
 
   /* Level 2 Links (Column Headers) */
@@ -758,10 +758,10 @@
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
     text-transform: uppercase !important;
     font-size: 11px !important;
-    letter-spacing: 2.5px !important;
+    letter-spacing: 2px !important;
     color: #9c9a96 !important; /* light grey/beige muted color */
     font-weight: 700 !important;
-    margin-bottom: 15px !important;
+    margin-bottom: 8px !important;
     padding-bottom: 0 !important;
     line-height: 1.2 !important;
   }
@@ -772,19 +772,24 @@
   }
 
   /* Level 3 Links (Sub links) */
-  .mega-menu__column > div > ul > li > .mega-menu__link,
-  .mega-menu__column > div > ul > li > .mega-menu__link .wrap-text {
+  .mega-menu__column > div > ul > li {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mega-menu__column > div > ul > li > .mega-menu__link {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
     font-size: 13px !important;
     font-weight: 500 !important;
     color: #1a1a1a !important;
-    padding: 7px 0 !important;
+    padding: 3px 0 !important;
+    margin: 0 !important;
     transition: opacity 0.2s ease;
     letter-spacing: 0.3px !important;
+    line-height: 1.4 !important;
   }
 
-  .mega-menu__column > div > ul > li > .mega-menu__link:hover,
-  .mega-menu__column > div > ul > li > .mega-menu__link:hover .wrap-text {
+  .mega-menu__column > div > ul > li > .mega-menu__link:hover {
     opacity: 0.5 !important;
     color: #1a1a1a !important;
   }
