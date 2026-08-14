@@ -736,32 +736,34 @@
   
   /* Enforce beige background for mega menu dropdown */
   .header__underlay {
-    --color-submenu: #FBF8F1 !important;
+    --color-submenu: #FAF8F2 !important;
   }
   .menu-list {
-    --color-submenu-surface: #FBF8F1 !important;
+    --color-submenu-surface: #FAF8F2 !important;
   }
   
   .menu-list__submenu-inner {
-    background-color: #FBF8F1 !important;
+    background-color: #FAF8F2 !important;
   }
 
   .mega-menu__grid {
     /* Increase gap between columns */
-    gap: 2rem 5rem !important;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    gap: 2.5rem 6rem !important;
+    padding-top: 2.5rem !important;
+    padding-bottom: 3.5rem !important;
   }
 
   /* Level 2 Links (Column Headers) */
-  .mega-menu__link--parent {
+  .mega-menu__link--parent, .mega-menu__link--parent .wrap-text {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
     text-transform: uppercase !important;
     font-size: 11px !important;
-    letter-spacing: 1.5px !important;
-    color: #8c8c8c !important; /* muted color */
-    font-weight: 600 !important;
-    margin-bottom: 12px !important;
+    letter-spacing: 2.5px !important;
+    color: #9c9a96 !important; /* light grey/beige muted color */
+    font-weight: 700 !important;
+    margin-bottom: 15px !important;
     padding-bottom: 0 !important;
+    line-height: 1.2 !important;
   }
   
   /* Remove any caret arrow from parent links if present */
@@ -770,17 +772,21 @@
   }
 
   /* Level 3 Links (Sub links) */
-  .mega-menu__column > div > ul > li > .mega-menu__link {
+  .mega-menu__column > div > ul > li > .mega-menu__link,
+  .mega-menu__column > div > ul > li > .mega-menu__link .wrap-text {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
     font-size: 13px !important;
-    font-weight: 600 !important;
-    color: #222 !important;
-    padding: 6px 0 !important;
+    font-weight: 500 !important;
+    color: #1a1a1a !important;
+    padding: 7px 0 !important;
     transition: opacity 0.2s ease;
+    letter-spacing: 0.3px !important;
   }
 
-  .mega-menu__column > div > ul > li > .mega-menu__link:hover {
-    opacity: 0.6 !important;
-    color: #222 !important;
+  .mega-menu__column > div > ul > li > .mega-menu__link:hover,
+  .mega-menu__column > div > ul > li > .mega-menu__link:hover .wrap-text {
+    opacity: 0.5 !important;
+    color: #1a1a1a !important;
   }
 
 {% endstylesheet %}
