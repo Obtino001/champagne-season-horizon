@@ -82,13 +82,14 @@
       if forloop.first or open_column_span == false
         assign open_column_span = true
 
-        # Don't allow orphan links in a column
-        assign break_after_modulo = link.links.size | modulo: links_before_wrap
-        if break_after_modulo == 1
-          assign links_before_wrap = links_before_wrap | minus: 1
+        assign links_before_wrap = 100
+        assign column_span = 1
+        
+        if link.links.size > 10
+          assign column_span = 2
+          assign links_before_wrap = link.links.size | divided_by: 2.0 | ceil
         endif
-        assign break_after_float = links_before_wrap | times: 1.0
-        assign column_span = link.links.size | divided_by: break_after_float | ceil | at_least: 1
+
         assign column_count = column_count | plus: column_span
         assign should_break_columns = true
         assign span_class = ''
